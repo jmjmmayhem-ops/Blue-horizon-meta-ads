@@ -2,7 +2,9 @@
 
 **Went live:** 2026-06-15 ~15:07 UTC
 **Account:** 761087688736713 (Bluehorizondetailing – Ad account)
-**Status:** ACTIVE — spending at £15/day (CBO)
+**Status:** ⏸️ PAUSED (delivery stopped ~16:43 UTC) — wrong video was used; awaiting correct ad-account video before relaunch. NOT spending.
+
+> **2026-06-15 ~17:00 UTC update:** The 4 ads went live ~15:07 then were found to use the wrong video (an older "DETAILING OFFER AD.mp4", `989139670316049`). All 4 ads were paused to stop spend. Josh supplied a replacement video ID `1019304307482803`, but Meta rejects it as "not a valid video_id" and it never appears in the ad-account media list — almost certainly a Page video ID, not an ad-account video. Campaign + ad set remain ACTIVE but have **zero active ads, so nothing is delivering or spending**. Relaunch is blocked until a valid **ad-account** video is available. To fix: upload the deep-clean video directly in Ads Manager → Media (ad account), then use that video's ID. The 4 paused ads (V1–V4) are listed below and will be replaced with correct-video versions on relaunch.
 
 ## Structure
 - **Campaign:** `BH | Meta Leads | Deep Clean Summer Offer | Rugby+20 | 2026-06` — `120248895027620294` — OUTCOME_LEADS, CBO £15/day, ACTIVE

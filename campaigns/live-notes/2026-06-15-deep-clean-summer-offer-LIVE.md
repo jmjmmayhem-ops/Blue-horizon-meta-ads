@@ -11,7 +11,7 @@
 - V3 - Pre-Sale / Pride — `120248908178670294`
 - V4 - Inside & Out — `120248908179390294`
 
-> **2026-06-15 saga (resolved):** Original 4 ads went live ~15:07 on the WRONG video (older "DETAILING OFFER AD.mp4" `989139670316049`) and were paused ~16:43 to stop spend. A replacement ID `1019304307482803` was a Page-media video (rejected as invalid). Josh re-uploaded the correct file to the **ad-account** media library → valid video `972834505558281`. Built 4 new ads on it and activated ~20:25. The 4 wrong-video ads remain PAUSED (not deleted): `120248896682740294`, `120248896685590294`, `120248896691560294`, `120248896694110294`.
+> **2026-06-15 saga (resolved):** Original 4 ads went live ~15:07 on the WRONG video (older "DETAILING OFFER AD.mp4" `989139670316049`) and were paused ~16:43 to stop spend. A replacement ID `1019304307482803` was a Page-media video (rejected as invalid). Josh re-uploaded the correct file to the **ad-account** media library → valid video `972834505558281`. Built 4 new ads on it and activated ~20:25. The 4 wrong-video ads were ARCHIVED ~20:36 UTC (per Josh — "anything with the old video can be deleted"): `120248896682740294`, `120248896685590294`, `120248896691560294`, `120248896694110294`. Old video file `989139670316049` left in media (no delete-video API tool); can be removed manually in Ads Manager Media if desired.
 
 ## Structure
 - **Campaign:** `BH | Meta Leads | Deep Clean Summer Offer | Rugby+20 | 2026-06` — `120248895027620294` — OUTCOME_LEADS, CBO £15/day, ACTIVE

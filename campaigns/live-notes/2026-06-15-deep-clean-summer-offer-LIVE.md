@@ -2,9 +2,16 @@
 
 **Went live:** 2026-06-15 ~15:07 UTC
 **Account:** 761087688736713 (Bluehorizondetailing – Ad account)
-**Status:** ⏸️ PAUSED (delivery stopped ~16:43 UTC) — wrong video was used; awaiting correct ad-account video before relaunch. NOT spending.
+**Status:** ✅ LIVE again (relaunched ~20:25 UTC) with the CORRECT video — spending at £15/day (CBO).
 
-> **2026-06-15 ~17:00 UTC update:** The 4 ads went live ~15:07 then were found to use the wrong video (an older "DETAILING OFFER AD.mp4", `989139670316049`). All 4 ads were paused to stop spend. Josh supplied a replacement video ID `1019304307482803`, but Meta rejects it as "not a valid video_id" and it never appears in the ad-account media list — almost certainly a Page video ID, not an ad-account video. Campaign + ad set remain ACTIVE but have **zero active ads, so nothing is delivering or spending**. Relaunch is blocked until a valid **ad-account** video is available. To fix: upload the deep-clean video directly in Ads Manager → Media (ad account), then use that video's ID. The 4 paused ads (V1–V4) are listed below and will be replaced with correct-video versions on relaunch.
+**Correct video:** `972834505558281` ("deep clean offer ad.mp4", 58s).
+**Active ads (correct video):**
+- V1 - Summer Fresh — `120248908176840294`
+- V2 - Value Anchor — `120248908177930294`
+- V3 - Pre-Sale / Pride — `120248908178670294`
+- V4 - Inside & Out — `120248908179390294`
+
+> **2026-06-15 saga (resolved):** Original 4 ads went live ~15:07 on the WRONG video (older "DETAILING OFFER AD.mp4" `989139670316049`) and were paused ~16:43 to stop spend. A replacement ID `1019304307482803` was a Page-media video (rejected as invalid). Josh re-uploaded the correct file to the **ad-account** media library → valid video `972834505558281`. Built 4 new ads on it and activated ~20:25. The 4 wrong-video ads remain PAUSED (not deleted): `120248896682740294`, `120248896685590294`, `120248896691560294`, `120248896694110294`.
 
 ## Structure
 - **Campaign:** `BH | Meta Leads | Deep Clean Summer Offer | Rugby+20 | 2026-06` — `120248895027620294` — OUTCOME_LEADS, CBO £15/day, ACTIVE

@@ -4,6 +4,8 @@
 **Account:** 761087688736713 (Bluehorizondetailing – Ad account)
 **Status:** ✅ LIVE again (relaunched ~20:25 UTC) with the CORRECT video — spending at £15/day (CBO).
 
+> **2026-06-16 ~08:40 UTC — budget reduced to £5/day.** Overnight result (~12-15h, ~£14 spend): Josh reports **19 leads / £2,850 revenue** (~£0.73 cost-per-lead, ~200x ROAS) — though Meta recorded **0** pixel-Lead conversions (tracking gap: GHL form-submit isn't firing the pixel Lead event; Josh chose not to fix yet). Budget dropped £15→£5/day at Josh's request to let him catch up on bookings (capacity-limited). NOTE: editing the campaign budget via the API force-pauses the campaign — had to re-activate after. Campaign currently ACTIVE at £5/day. Best early creative: V2 - Value Anchor (8.88% CTR, £0.14 CPC).
+
 **Correct video:** `972834505558281` ("deep clean offer ad.mp4", 58s).
 **Active ads (correct video):**
 - V1 - Summer Fresh — `120248908176840294`

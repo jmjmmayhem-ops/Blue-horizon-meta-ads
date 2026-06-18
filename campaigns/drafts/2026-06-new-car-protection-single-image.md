@@ -38,11 +38,12 @@ Don't settle for the dealer's cheap sealant. Proper professional ceramic protect
 **CTA:** Get Quote
 
 ## Targeting / setup (suggested)
-- Objective: OUTCOME_LEADS, optimise for website Lead (pixel) — or Landing Page Views until the Lead event fires reliably.
+- Objective: OUTCOME_LEADS, **optimise for LANDING PAGE VIEWS to start** (conversions will be sparse for a high-ticket niche, so LPV gives Meta more signal to learn from) — switch to website Lead conversions once volume/tracking supports it.
 - Destination: dedicated **/offers/new-car-protection** GHL form page (clone of the deep-clean offer page).
 - Audience: **age 30+**, Advantage+ audience, focused on **high-value areas** (Leamington Spa, Warwick, Kenilworth, Solihull, Balsall Common, Stratford, Dunchurch, Southam + Rugby prestige) — a slightly wider radius is fine for this high-ticket service.
 - Placements: automatic (Advantage+), Facebook Feed/Reels + Instagram.
-- Budget: suggested **£5/day** to start alongside the Deep Clean campaign; scale on qualified leads/booked jobs.
+- Budget: suggested **£10/day** to start (high-ticket niche needs more signal than £5/day to learn; one £675 job covers ~9 weeks at this rate). Expect higher cost-per-lead than the Deep Clean (~£15–40/lead is fine here) and slower, higher-value lead flow. Scale on qualified leads/booked jobs.
+- Competitor context (Ad Library, GB): ceramic/paint-protection is busy nationally (~1,700 "ceramic coating" ads) but thin locally; most competitors lean on discounts/generic "summer ceramic deal" — Blue Horizon's premium, new-car-specific, dealer-beating angle is differentiated. Note: Ad Library does NOT expose competitor budgets/spend.
 
 ## Before this can launch
 1. ChatGPT poster finalised and **uploaded to ad-account media**.

@@ -49,3 +49,19 @@ Don't settle for the dealer's cheap sealant. Proper professional ceramic protect
 1. ChatGPT poster finalised and **uploaded to ad-account media**.
 2. **/offers/new-car-protection** GHL landing page live (with pixel Lead event ideally).
 3. Josh's APPROVE to build + launch.
+
+---
+
+## BUILT (paused) — 2026-06-18
+- Campaign: `BH | Meta Traffic | New Car Protection | High Value Areas | 2026-06` — `120249131035000294` — OUTCOME_TRAFFIC, CBO £10/day, PAUSED
+- Ad set: `New Car Protection | Age 30+ | High Value Areas | LPV` — `120249131044300294` — LANDING_PAGE_VIEWS, WEBSITE, Rugby+25mi (same as Deep Clean), age 30+, Advantage+ audience
+- Destination: https://bluehorizondetailing.com/offers/new-car-protection · CTA GET_QUOTE · pixel 1404609760266229 tracks via site
+- Poster image_hash: `36d826552a3eb1b899434178250caa54`
+- 4 ad variants (all paused, same poster + landing page):
+  - V1 Poster "Protect Your New Car — Properly" — `120249131067260294`
+  - V2 Value "Paint, Wheels & Glass — Coated" — `120249131107460294`
+  - V3 Dealer "Far Beyond Dealer Protection" — `120249131109960294`
+  - V4 Factory Fresh "Keep It Factory-Fresh" — `120249131110670294`
+- Standalone creative `1422780442990637` created during testing (unused; inline creatives used instead).
+- Mis-set OUTCOME_LEADS shell `120249130980860294` left PAUSED/empty (zero spend).
+- Awaiting Josh "set it live" to activate campaign → ad set → 4 ads at £10/day.

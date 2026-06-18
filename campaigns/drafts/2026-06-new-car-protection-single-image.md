@@ -65,3 +65,14 @@ Don't settle for the dealer's cheap sealant. Proper professional ceramic protect
 - Standalone creative `1422780442990637` created during testing (unused; inline creatives used instead).
 - Mis-set OUTCOME_LEADS shell `120249130980860294` left PAUSED/empty (zero spend).
 - Awaiting Josh "set it live" to activate campaign → ad set → 4 ads at £10/day.
+
+---
+
+## LIVE — 2026-06-18 (v2 build, image via URL)
+- Campaign: `BH | Meta Traffic | New Car Protection | High Value Areas | 2026-06b` — `120249135207270294` — OUTCOME_TRAFFIC, CBO £10/day, ACTIVE
+- Ad set: `New Car Protection | Age 30+ | Rugby+20 | LPV` — `120249135211260294` — LANDING_PAGE_VIEWS, WEBSITE, Rugby+20mi, age 30+, Advantage+ audience
+- Destination: https://bluehorizondetailing.com/offers/new-car-protection (UTM-tagged per variant) · CTA GET_QUOTE
+- 4 ACTIVE ads (image pulled via URL https://i.postimg.cc/Qt25bjkd/image1000.jpg):
+  - V1 Poster `120249136249500294` · V2 Value `120249136405050294` · V3 Dealer `120249136407920294` · V4 Factory-Fresh `120249136415830294`
+- KEY LESSON: media-library image uploads (hashes 36d8…, 951197…, bf1db7…) all failed with "Image Not Found" — Josh's upload path isn't registering images as ad-usable. The deep-clean cover (976a, older upload) works. FIX: build with image_url from a public host (postimages.org). Use this method for future image ads.
+- Cleanup TODO (paused/broken, safe to delete in UI): campaigns 120249130980860294 (LEADS shell), 120249131035000294, 120249131898330294, and the paused broken hash ad 120249131937040294 / 120249135216750294.

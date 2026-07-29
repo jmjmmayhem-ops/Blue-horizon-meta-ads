@@ -1,0 +1,77 @@
+# Deep Clean £150 — WhatsApp Version — LIVE
+
+**Switched:** 29 July 2026, on Josh's instruction — *"change all of the objectives to every creative to WhatsApp now with prefilled message instead… copy every campaign, audience, and creative and every variant perfectly."*
+
+## Why we switched
+The landing page campaign delivered excellent ad metrics (2.44% link CTR, £0.19 per landing page view, 49 landing page views) but **zero enquiries**. That matches weeks of the same pattern on the previous Deep Clean campaign: cheap clicks, strong CTR, almost no form fills. The bottleneck is the page and the broken Lead event, not the ads.
+
+WhatsApp also **fixes the tracking problem rather than working around it** — Meta receives "conversations started" natively, so the algorithm optimises on a real outcome instead of the landing-page-view proxy.
+
+## Actions taken
+1. **PAUSED** landing page campaign `120250775729340294` — final spend **£9.24**, 2,414 impressions, 59 link clicks, 49 landing page views, 0 enquiries. Kept, not deleted, so it can be revived if the page is fixed.
+2. **Built and launched** a complete WhatsApp duplicate.
+
+## New campaign
+| | |
+|---|---|
+| Name | `BH \| Meta Messages \| Deep Clean £150 \| Warwickshire \| 2026-07` |
+| ID | `120250777694170294` |
+| Objective | OUTCOME_ENGAGEMENT → Messages |
+| Optimisation | **CONVERSATIONS** |
+| Destination | **WhatsApp** — 07818 514079 |
+| Budget | £25/day (ABO, unchanged) |
+
+**Pre-filled message — general, not ad-specific (per Josh):**
+```
+Hi Josh, I'd like a quote for the Premium Deep Clean offer. Here's my car and postcode:
+```
+Deliberately generic — someone who clicked the dog-hair ad doesn't open WhatsApp talking about dog hair. The trailing prompt gets vehicle + postcode in the first message so Josh can quote immediately. Plain text, no pre-encoding (avoids the `%2520` double-encoding bug hit on the SMART campaign).
+
+## Ad sets — mirrored exactly from the landing page version
+- `120250777701660294` **Broad Warwickshire** — £12/day · Rugby+20mi · 28–65 · A+ Audience on · **7 ads**
+- `120250777705080294` **High-Value Areas** — £7/day · same 8 town radii · 30–65 hard cap · A+ Audience off · **3 ads**
+- `120250777707080294` **Retargeting Warm** — £6/day · same 3 custom audiences · Rugby+25mi · 25–65 · **2 ads**
+
+## Ads — all 12 copied, all ACTIVE
+| Ad set | Ad | ID |
+|---|---|---|
+| Broad | Filthy V1 — Your Car Reset | `120250777741820294` |
+| Broad | Filthy V1 — No More Apologising | `120250777744880294` |
+| Broad | Filthy V2 — We've Seen Worse | `120250777746810294` |
+| Broad | Dog Hair — Keep The Dog Lose The Hair | `120250777750190294` |
+| Broad | Dog Hair — Remove It Don't Mask It | `120250777752190294` |
+| Broad | Mouldy Carpet — Not Just A Smell | `120250777754690294` |
+| Broad | Defender — Earns Its Dirt | `120250777756320294` |
+| High-Value | White Seats — White Leather Restored | `120250777757620294` |
+| High-Value | Taycan — Trusted With Prestige Cars | `120250777759670294` |
+| High-Value | Urus — The Method Matters | `120250777761970294` |
+| Retargeting | RT — Still Thinking About It | `120250777763770294` |
+| Retargeting | RT — We Come To You | `120250777765890294` |
+
+**Body copy, headlines, descriptions and images are byte-identical to the landing page version.** No delivery issues on any ad.
+
+## Two forced changes
+1. **All CTAs are now "Send Message."** A WhatsApp Messages campaign accepts no other CTA — Meta creates ads with other buttons then blocks them at delivery with *"Invalid Creative For Objective"* (this cost a rebuild on the SMART campaign). The Urus ad was "Learn More" and is now "Send Message" like the rest.
+2. **UTM parameters dropped** — meaningless for a WhatsApp destination. Attribution is now Meta's native conversation reporting, which is more reliable than the UTM workaround ever was.
+
+---
+
+## What changes about measurement — this is the upgrade
+
+| | Landing page version | WhatsApp version |
+|---|---|---|
+| Optimises on | Landing page views (proxy) | **Conversations started (real)** |
+| Meta sees the outcome | ❌ No | ✅ Yes |
+| Attribution | UTMs into GHL (unverified) | Native, per-ad |
+| Cost per result | Not measurable | **Directly reported** |
+
+For the first time, cost per enquiry will be visible per ad in Meta.
+
+## Watch items
+- **Reply speed is now the biggest driver of bookings.** Minutes, not hours.
+- **Expect more volume and more tyre-kickers** than a form produces. Every message costs Josh a reply — if it gets noisy, tighten the copy to pre-qualify harder.
+- **Verify the pre-fill renders** by tapping a live ad — the text should appear in WhatsApp with normal spaces, no `%20`.
+- Tag conversations: booked / quoted not booked / out of area / price shopper / no response.
+
+## Day 7
+Pause the worst performer on cost per conversation, note the winner. Judge on **booked jobs**, not message count. Both dog-hair ads led the landing page version on efficiency (£0.08–0.10 per landing page view) — worth watching whether that holds now the goal has changed.

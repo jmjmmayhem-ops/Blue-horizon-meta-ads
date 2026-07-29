@@ -15,11 +15,12 @@ Stop the scroll with premium before/after imagery → make the bodyshop feel lik
 ## Structure
 - **1 Campaign** — `BH | Meta Messages | SMART Repairs | Warwickshire | 2026`
 - **1 Ad set** — Warwickshire + surrounds, age 24–65, all genders, Advantage+ placements, WhatsApp destination.
-- **3 Ads live** (Josh's 29 Jul call — swapped the two door-scratch ads for a second rear bumper), each unique:
-  1. Front bumper scuff repair
-  2. Rear bumper scuff repair
-  3. Rear bumper scuff repair (second angle/variant)
-- **Reserve creative (not built):** two door-scratch ads — full briefs and copy are ready in this folder to swap in later.
+- **8 Ads live** — **4 images × 2 copy/CTA variants each** (Josh, 29 Jul):
+  1. Front bumper scuff repair (×2 variants)
+  2. Rear bumper scuff repair (×2 variants)
+  3. Rear bumper scuff repair, second angle (×2 variants)
+  4. Door scratch repair (×2 variants)
+- Each image runs a **Variant A ("Send Message" CTA)** and a **Variant B ("Get Quote" CTA)** with different headline + primary text.
 
 ## Recommended CTA — **"Send Message"**
 For a click-to-WhatsApp objective, **"Send Message"** is the right button:
@@ -61,6 +62,13 @@ Budget raised to **£10/day** (Josh, 29 Jul). **6 ads = 3 images × 2 copy/CTA v
 **Rear bumper 2** (image 1bb787876cb155aed8634a335f16e4fc):
 - Ad 3A `120250773705140294` — "Rear Bumper Scuffs, Restored" / professional-finish text / **Send Message** (creative 28043118375313613)
 - Ad 3B `120250774159630294` — "Colour-Matched, At Your Door" / cost-effective text / **Get Quote** (creative 1329176212391180)
+
+**Door scratch** (image ef178d56768ce41e386d0aed41874ad2 — 1200×1600, best-quality of the set):
+- Ad 4A `120250774373630294` — "Door Scratches, Sorted" / single-visit text / **Send Message** (creative 3568944763271348)
+- Ad 4B `120250774401630294` — "Skip The Bodyshop Queue" / skip-the-wait text / **Get Quote** (creative 1600042385169189)
+- (Note: a first 4B creative `1390827519660210` wouldn't attach — "Invalid Creative For Objective"; rebuilt as `1600042385169189` and it took. Orphan creative is harmless.)
+
+**Total: 8 ads, all PAUSED, £0 spent.** Get Quote CTA verified rendering on the WhatsApp ad via preview.
 - Cleanup DONE: earlier broken Ad 1 (`120250773548120294`, double-encoded pre-fill) deleted; superseded by `120250773586520294`.
 
 ### Plan change (29 Jul 2026)

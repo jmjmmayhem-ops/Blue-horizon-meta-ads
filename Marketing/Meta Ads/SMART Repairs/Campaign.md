@@ -15,11 +15,11 @@ Stop the scroll with premium before/after imagery → make the bodyshop feel lik
 ## Structure
 - **1 Campaign** — `BH | Meta Messages | SMART Repairs | Warwickshire | 2026`
 - **1 Ad set** — Warwickshire + surrounds, age 24–65, all genders, Advantage+ placements, WhatsApp destination.
-- **4 Ads**, each unique:
+- **3 Ads live** (Josh's 29 Jul call — swapped the two door-scratch ads for a second rear bumper), each unique:
   1. Front bumper scuff repair
   2. Rear bumper scuff repair
-  3. Door scratch repair
-  4. Door scratch repair (second angle/variant)
+  3. Rear bumper scuff repair (second angle/variant)
+- **Reserve creative (not built):** two door-scratch ads — full briefs and copy are ready in this folder to swap in later.
 
 ## Recommended CTA — **"Send Message"**
 For a click-to-WhatsApp objective, **"Send Message"** is the right button:
@@ -48,8 +48,14 @@ Josh uploads before/after images and tells me which image belongs to which ad (f
 ## BUILT (paused) — progress
 - Campaign `120250773503190294` (OUTCOME_ENGAGEMENT / Messages, ABO)
 - Ad set `120250773508630294` — WHATSAPP destination, CONVERSATIONS, £5/day, Warwickshire (Rugby+25mi), age 24–65, Advantage+ placements
-- Ad 1 Front Bumper `120250773586520294` — image_hash f715488d0579848b83c311bdc958ba23
-- Ad 2 Rear Bumper `120250773590200294` — image_hash 2776b8f5cade86da9810ffdfffccf2e6
-- CTA WHATSAPP_MESSAGE, pre-filled greeting set. WhatsApp path confirmed buildable via MCP.
-- Cleanup: one earlier Ad 1 (`120250773548120294`) had a double-encoded pre-fill — to be deleted; superseded by `120250773586520294`.
-- TODO: Ads 3 & 4 (door scratches) once images supplied. Verify WhatsApp number connection + pre-fill render before go-live. All paused — £0 spent.
+- **Ad 1 Front Bumper** `120250773586520294` — image_hash f715488d0579848b83c311bdc958ba23
+- **Ad 2 Rear Bumper** `120250773590200294` — image_hash 2776b8f5cade86da9810ffdfffccf2e6
+- **Ad 3 Rear Bumper (Variant 2)** `120250773705140294` — image_hash 1bb787876cb155aed8634a335f16e4fc — creative `28043118375313613` — primary text "Professional finish", headline "Rear Bumper Scuffs, Restored", desc "Backed by a workmanship guarantee."
+- CTA WHATSAPP_MESSAGE, pre-filled greeting set (plain text, no double-encoding). WhatsApp path confirmed buildable via MCP.
+- Cleanup DONE: earlier broken Ad 1 (`120250773548120294`, double-encoded pre-fill) deleted; superseded by `120250773586520294`.
+
+### Plan change (29 Jul 2026)
+Josh swapped the **two door-scratch ads for a second rear-bumper ad** ("extra rear one instead of 2 door scratch ones"). Live structure is now **3 ads**: Front Bumper, Rear Bumper 1, Rear Bumper 2. The door-scratch briefs/copy (`Ad 3/Ad 4 …md`, copy banks) stay in the folder as **ready-to-use reusable creative** — swap them in later per `Performance Checklist.md` when door-scratch before/afters are available.
+
+- **Note on Ad 3 image:** `rear bumper scuff 2` is 744×552 (landscape, below the ideal 1080px). Usable and will deliver, but Meta will auto-crop it in feed/Stories. A vertical 4:5 / 9:16 version would perform better — worth reshooting/cropping when convenient (see `Image Specifications.md`).
+- **TODO before go-live:** verify WhatsApp number 07818 514079 is connected to the Page + Business, and that the pre-fill renders. All paused — £0 spent.

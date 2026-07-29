@@ -1,6 +1,6 @@
 # Blue Horizon Detailing — SMART Repairs Meta Campaign
 
-**Status:** Plan complete. Awaiting Josh's before/after images to finalise creatives and publish via the Meta MCP.
+**Status:** 🟢 **LIVE — activated 29 July 2026** on Josh's explicit APPROVE. Campaign, ad set and all 8 ads ACTIVE at £10/day.
 **Prepared:** as a reusable SMART Repair advertising system.
 **Compliance note:** SMART repairs advertising is authorised — Josh explicitly requested this campaign (service live from 1 July 2026). Prices are NOT stated in ads (indicative-only rule). No claims of "invisible" repair or "every scratch fixable" — assessment-based language only. Lifetime workmanship guarantee is approved for SMART repairs and used as a trust signal.
 

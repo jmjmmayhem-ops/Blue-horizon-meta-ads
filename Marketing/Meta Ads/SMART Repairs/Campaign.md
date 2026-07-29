@@ -47,11 +47,20 @@ Josh uploads before/after images and tells me which image belongs to which ad (f
 
 ## BUILT (paused) — progress
 - Campaign `120250773503190294` (OUTCOME_ENGAGEMENT / Messages, ABO)
-- Ad set `120250773508630294` — WHATSAPP destination, CONVERSATIONS, £5/day, Warwickshire (Rugby+25mi), age 24–65, Advantage+ placements
-- **Ad 1 Front Bumper** `120250773586520294` — image_hash f715488d0579848b83c311bdc958ba23
-- **Ad 2 Rear Bumper** `120250773590200294` — image_hash 2776b8f5cade86da9810ffdfffccf2e6
-- **Ad 3 Rear Bumper (Variant 2)** `120250773705140294` — image_hash 1bb787876cb155aed8634a335f16e4fc — creative `28043118375313613` — primary text "Professional finish", headline "Rear Bumper Scuffs, Restored", desc "Backed by a workmanship guarantee."
-- CTA WHATSAPP_MESSAGE, pre-filled greeting set (plain text, no double-encoding). WhatsApp path confirmed buildable via MCP.
+- Ad set `120250773508630294` — WHATSAPP destination, CONVERSATIONS, £10/day, Warwickshire (Rugby+25mi), age 24–65, Advantage+ placements
+Budget raised to **£10/day** (Josh, 29 Jul). **6 ads = 3 images × 2 copy/CTA variants each** (Josh: "2 variants of each ad with different headlines and text and cta"). Variant A = "Send Message" CTA; Variant B = "Get Quote" CTA. All pre-fills plain text (no double-encoding). WhatsApp connection confirmed by Josh + preview renders.
+
+**Front bumper** (image f715488d0579848b83c311bdc958ba23):
+- Ad 1A `120250773586520294` — "Mobile Front Bumper Repair" / mobile-convenience text / **Send Message**
+- Ad 1B `120250774035570294` — "Skip The Bodyshop" / cost-vs-bodyshop text / **Get Quote** (creative 1059940906721597)
+
+**Rear bumper 1** (image 2776b8f5cade86da9810ffdfffccf2e6):
+- Ad 2A `120250773590200294` — "Reversed Into Something?" / fast-turnaround text / **Send Message**
+- Ad 2B `120250774159130294` — "Mobile Rear Bumper Repair" / avoid-the-bodyshop text / **Get Quote** (creative 2055503425062129)
+
+**Rear bumper 2** (image 1bb787876cb155aed8634a335f16e4fc):
+- Ad 3A `120250773705140294` — "Rear Bumper Scuffs, Restored" / professional-finish text / **Send Message** (creative 28043118375313613)
+- Ad 3B `120250774159630294` — "Colour-Matched, At Your Door" / cost-effective text / **Get Quote** (creative 1329176212391180)
 - Cleanup DONE: earlier broken Ad 1 (`120250773548120294`, double-encoded pre-fill) deleted; superseded by `120250773586520294`.
 
 ### Plan change (29 Jul 2026)

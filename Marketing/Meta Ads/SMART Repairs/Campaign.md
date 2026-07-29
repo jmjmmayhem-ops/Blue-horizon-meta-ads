@@ -20,13 +20,16 @@ Stop the scroll with premium before/after imagery → make the bodyshop feel lik
   2. Rear bumper scuff repair (×2 variants)
   3. Rear bumper scuff repair, second angle (×2 variants)
   4. Door scratch repair (×2 variants)
-- Each image runs a **Variant A ("Send Message" CTA)** and a **Variant B ("Get Quote" CTA)** with different headline + primary text.
+- Each image runs **two variants (A and B)** with **different headline + primary text**. **Both use the "Send Message" CTA** — see the CTA note below.
+
+> **CTA constraint (learned 29 Jul):** A WhatsApp Messages campaign only supports the **"Send Message"** button. "Get Quote" (and other CTAs) can be *created and even previewed*, but Meta blocks them at delivery with *"Invalid Creative For Objective — the ad's creative is incompatible with the objective."* The original B variants were built with Get Quote, all four went to WITH_ISSUES, and were rebuilt on "Send Message" + deleted. So we A/B **copy and headline**, not the button, on this objective.
 
 ## Recommended CTA — **"Send Message"**
 For a click-to-WhatsApp objective, **"Send Message"** is the right button:
 - It's the **native WhatsApp action** — one tap opens WhatsApp with the pre-filled message, no landing page, no extra step.
 - SMART repair quoting is **photo-based**, and WhatsApp is where photos naturally happen — so the CTA and the sales process match perfectly.
 - Alternatives like "Learn More" or "Get Quote" add friction and send people somewhere they then have to leave to message you. "Send Message" removes every step between "interested" and "in your inbox with a photo."
+- **It is also the only option.** Meta restricts this objective to the WhatsApp button — other CTAs are rejected at delivery (see the CTA constraint note in Structure above). Not a preference; a platform rule.
 
 ## Files in this folder
 - `Campaign Settings.md` — all Meta settings, budget, optimisation, attribution, Advantage+.
@@ -49,26 +52,25 @@ Josh uploads before/after images and tells me which image belongs to which ad (f
 ## BUILT (paused) — progress
 - Campaign `120250773503190294` (OUTCOME_ENGAGEMENT / Messages, ABO)
 - Ad set `120250773508630294` — WHATSAPP destination, CONVERSATIONS, £10/day, Warwickshire (Rugby+25mi), age 24–65, Advantage+ placements
-Budget raised to **£10/day** (Josh, 29 Jul). **6 ads = 3 images × 2 copy/CTA variants each** (Josh: "2 variants of each ad with different headlines and text and cta"). Variant A = "Send Message" CTA; Variant B = "Get Quote" CTA. All pre-fills plain text (no double-encoding). WhatsApp connection confirmed by Josh + preview renders.
+Budget raised to **£10/day** (Josh, 29 Jul). **8 ads = 4 images × 2 copy variants each.** Every ad uses the **"Send Message"** CTA (WhatsApp Messages objective doesn't allow any other button — see CTA constraint above). All pre-fills plain text (no double-encoding). WhatsApp connection confirmed by Josh.
 
 **Front bumper** (image f715488d0579848b83c311bdc958ba23):
-- Ad 1A `120250773586520294` — "Mobile Front Bumper Repair" / mobile-convenience text / **Send Message**
-- Ad 1B `120250774035570294` — "Skip The Bodyshop" / cost-vs-bodyshop text / **Get Quote** (creative 1059940906721597)
+- Ad 1A `120250773586520294` — "Mobile Front Bumper Repair" / mobile-convenience text (creative 804910619377569)
+- Ad 1B `120250775212320294` — "Skip The Bodyshop" / cost-vs-bodyshop text (creative 1069272669090557)
 
 **Rear bumper 1** (image 2776b8f5cade86da9810ffdfffccf2e6):
-- Ad 2A `120250773590200294` — "Reversed Into Something?" / fast-turnaround text / **Send Message**
-- Ad 2B `120250774159130294` — "Mobile Rear Bumper Repair" / avoid-the-bodyshop text / **Get Quote** (creative 2055503425062129)
+- Ad 2A `120250773590200294` — "Reversed Into Something?" / fast-turnaround text (creative 2513362562504445)
+- Ad 2B `120250775215000294` — "Mobile Rear Bumper Repair" / avoid-the-bodyshop text (creative 1349252276798448)
 
 **Rear bumper 2** (image 1bb787876cb155aed8634a335f16e4fc):
-- Ad 3A `120250773705140294` — "Rear Bumper Scuffs, Restored" / professional-finish text / **Send Message** (creative 28043118375313613)
-- Ad 3B `120250774159630294` — "Colour-Matched, At Your Door" / cost-effective text / **Get Quote** (creative 1329176212391180)
+- Ad 3A `120250773705140294` — "Rear Bumper Scuffs, Restored" / professional-finish text (creative 28043118375313613)
+- Ad 3B `120250775266020294` — "Colour-Matched, At Your Door" / cost-effective text (creative 1335611904961992)
 
 **Door scratch** (image ef178d56768ce41e386d0aed41874ad2 — 1200×1600, best-quality of the set):
-- Ad 4A `120250774373630294` — "Door Scratches, Sorted" / single-visit text / **Send Message** (creative 3568944763271348)
-- Ad 4B `120250774401630294` — "Skip The Bodyshop Queue" / skip-the-wait text / **Get Quote** (creative 1600042385169189)
-- (Note: a first 4B creative `1390827519660210` wouldn't attach — "Invalid Creative For Objective"; rebuilt as `1600042385169189` and it took. Orphan creative is harmless.)
+- Ad 4A `120250774373630294` — "Door Scratches, Sorted" / single-visit text (creative 3568944763271348)
+- Ad 4B `120250775269730294` — "Skip The Bodyshop Queue" / skip-the-wait text (creative 1992523608056953)
 
-**Total: 8 ads, all PAUSED, £0 spent.** Get Quote CTA verified rendering on the WhatsApp ad via preview.
+**Total: 8 ads, all PAUSED, £0 spent.** The four original "Get Quote" B ads (`…774035570294`, `…774159130294`, `…774159630294`, `…774401630294`) were deleted after the delivery error; the B ads above are their "Send Message" replacements (same image/headline/copy).
 - Cleanup DONE: earlier broken Ad 1 (`120250773548120294`, double-encoded pre-fill) deleted; superseded by `120250773586520294`.
 
 ### Plan change (29 Jul 2026)

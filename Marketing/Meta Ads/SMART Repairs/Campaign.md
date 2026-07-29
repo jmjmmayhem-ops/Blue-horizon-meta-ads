@@ -42,3 +42,14 @@ For a click-to-WhatsApp objective, **"Send Message"** is the right button:
 ## Next step
 Josh uploads before/after images and tells me which image belongs to which ad (front bumper, rear bumper, door scratch ×2). Then I finalise creatives and build/publish via the MCP.
 **Publishing prerequisite:** WhatsApp Business number (07818 514079) must be connected to the Blue Horizon Detailing Page + Business in Meta. I'll verify this at build time.
+
+---
+
+## BUILT (paused) — progress
+- Campaign `120250773503190294` (OUTCOME_ENGAGEMENT / Messages, ABO)
+- Ad set `120250773508630294` — WHATSAPP destination, CONVERSATIONS, £5/day, Warwickshire (Rugby+25mi), age 24–65, Advantage+ placements
+- Ad 1 Front Bumper `120250773586520294` — image_hash f715488d0579848b83c311bdc958ba23
+- Ad 2 Rear Bumper `120250773590200294` — image_hash 2776b8f5cade86da9810ffdfffccf2e6
+- CTA WHATSAPP_MESSAGE, pre-filled greeting set. WhatsApp path confirmed buildable via MCP.
+- Cleanup: one earlier Ad 1 (`120250773548120294`) had a double-encoded pre-fill — to be deleted; superseded by `120250773586520294`.
+- TODO: Ads 3 & 4 (door scratches) once images supplied. Verify WhatsApp number connection + pre-fill render before go-live. All paused — £0 spent.

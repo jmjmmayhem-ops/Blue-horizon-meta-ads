@@ -137,6 +137,7 @@ Because of this the retargeting ad set leans on the FB/IG engagement audiences, 
 - [x] Preview renders correctly — before/after stacked vertically, no graphic clutter
 - [x] Copy complies: no invented claims, no banned words, review claim accurate (4.8★, 50+), price presented as "Usually £180. Currently £150."
 - [x] **Everything PAUSED — £0 spent**
+- [x] **Destination URLs visually verified by Josh (29 Jul)** — all 12 ads confirmed pointing to `/offers/deep-clean-150`. Noted because Meta's API does not expose `link_url` for this creative type (the link lives in `object_story_spec.link_data.link`), so preview/Ads Manager inspection is the only read-back route. Same limitation applies to the SMART Repairs creatives.
 
 ---
 

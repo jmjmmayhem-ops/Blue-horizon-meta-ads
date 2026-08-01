@@ -75,3 +75,44 @@ For the first time, cost per enquiry will be visible per ad in Meta.
 
 ## Day 7
 Pause the worst performer on cost per conversation, note the winner. Judge on **booked jobs**, not message count. Both dog-hair ads led the landing page version on efficiency (£0.08–0.10 per landing page view) — worth watching whether that holds now the goal has changed.
+
+---
+
+# UPDATE — Native WhatsApp attribution fix (29 Jul)
+
+## The problem
+After ~£50 across both WhatsApp campaigns (Deep Clean + SMART Repairs) and 183 link clicks, Meta recorded **0 conversations started** — while Josh confirmed he **had actually received messages**. So the ads worked; Meta simply could not see the outcome, leaving the CONVERSATIONS optimisation goal with no signal to learn from.
+
+## Root cause
+The creatives used a plain **`wa.me` outbound link**. That hands the user to WhatsApp but gives Meta no way to observe what happens next, so conversations always report zero.
+
+Native click-to-WhatsApp requires the creative's call-to-action to carry **`app_destination: "WHATSAPP"`**, which the `ads_create_creative` tool does not expose. The fix was to build the creative inline through `ads_create_ad` using a raw `object_story_spec`:
+
+```json
+"call_to_action": {
+  "type": "WHATSAPP_MESSAGE",
+  "value": {
+    "app_destination": "WHATSAPP",
+    "link": "https://api.whatsapp.com/send?phone=447818514079&text=<prefill>"
+  }
+}
+```
+
+**Tested first on a single ad before touching anything live.** Confirmed two things: the structure validates, and the `?text=` prefill survives — so we keep native attribution *and* the car+postcode prompt.
+
+## Action taken
+Rebuilt all 12 ads with the native structure (`DCWA-N -` prefix), activated them, and paused the 12 `wa.me` versions. Same images, same copy, same ad sets, same budgets — only the WhatsApp wiring changed.
+
+| Ad set | Native ads |
+|---|---|
+| Broad Warwickshire | `120250847782370294`, `120250847782940294`, `120250847783650294`, `120250847785320294`, `120250847780760294`, `120250847786510294`, `120250847786980294` |
+| High-Value Areas | `120250847788160294`, `120250847789110294`, `120250847789550294` |
+| Retargeting | `120250847792330294`, `120250847793660294` |
+
+All 12 ACTIVE, no delivery issues. Old `wa.me` ads paused, not deleted.
+
+## What to verify in 24h
+**Do conversations now register in Meta?** If yes, the fix worked and Meta can finally optimise toward people who actually message. If they still read zero, the next suspect is the WhatsApp Business account connection in Business Settings, not the creative.
+
+## Still outstanding
+SMART Repairs (`120250773503190294`) still runs the old `wa.me` structure and will keep reporting 0 conversations. Apply the same fix once confirmed working on Deep Clean.

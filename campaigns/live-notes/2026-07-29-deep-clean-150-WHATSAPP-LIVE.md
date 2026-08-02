@@ -141,3 +141,23 @@ Four ad sets sharing £20/day. Meta needs roughly 50 optimisation events per ad 
 - That gives Broad £10, High-Value £4, SMART £6 — three ad sets, one of them properly fed.
 
 Better to run two or three ad sets well than four badly.
+
+---
+
+# UPDATE — Scheduled stop at 23:00, 2 Aug 2026
+
+Josh: *"pause all the ads we set up at 11pm tonight and then we will get the new proper ones rebuilt properly with specific services tied to them."*
+
+**Date check:** verified against Meta's own clock via `created_time` on a just-created ad — **2026-08-02T17:05:01+0100**. Note that Meta's auto-generated creative names carry "2026-07-29", which is a naming quirk, not the real date. Worth checking before ever scheduling anything.
+
+## Action
+Set `stop_time = 2026-08-02T23:00:00+0100` on both live campaigns:
+- Deep Clean WhatsApp `120250777694170294`
+- SMART Repairs `120250773503190294`
+
+**Gotcha:** setting `stop_time` via `ads_update_entity` **forces the entity to PAUSED immediately** (`status_forced_to_paused: true`). Both campaigns were reactivated straight after so they keep delivering until 23:00 as intended. Anyone repeating this must re-activate after setting a stop time.
+
+**Verification limitation:** `stop_time` is not readable back through `ads_get_ad_entities` at campaign level, so the setting could not be confirmed programmatically. A one-shot session task was scheduled for 23:02 to check both campaigns and hard-pause anything still delivering. That task is session-only and dies if the session ends — so the Meta-side stop time remains the primary mechanism.
+
+## Next
+Rebuild as service-specific campaigns. Two are already built and paused (`campaigns/drafts/2026-07-service-campaigns/`): Maintenance Valet from £80, New Car Protection from £675. Remaining services are blocked on proof imagery — see the shot list in that folder.

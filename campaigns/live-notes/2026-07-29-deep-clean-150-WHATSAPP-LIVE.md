@@ -161,3 +161,44 @@ Set `stop_time = 2026-08-02T23:00:00+0100` on both live campaigns:
 
 ## Next
 Rebuild as service-specific campaigns. Two are already built and paused (`campaigns/drafts/2026-07-service-campaigns/`): Maintenance Valet from £80, New Car Protection from £675. Remaining services are blocked on proof imagery — see the shot list in that folder.
+
+---
+
+# UPDATE — ALL ADS PAUSED (2 Aug 2026, ~17:20 BST)
+
+Josh: *"pause all ads"* — brought forward from the planned 23:00 stop.
+
+**Account state: nothing is delivering. All 7 campaigns PAUSED, verified.**
+
+| Campaign | ID | Status |
+|---|---|---|
+| Deep Clean £150 — WhatsApp | `120250777694170294` | PAUSED |
+| SMART Repairs — WhatsApp | `120250773503190294` | PAUSED |
+| New Car Protection from £675 (draft) | `120250858244190294` | PAUSED |
+| Maintenance Valet from £80 (draft) | `120250858231370294` | PAUSED |
+| Deep Clean £150 — landing page | `120250775729340294` | PAUSED |
+| Deep Clean Summer Offer — Traffic (Jun) | `120249175039720294` | PAUSED |
+| Deep Clean Summer Offer — Leads (Jun) | `120249137713000294` | PAUSED |
+
+The scheduled 23:02 safety-net task was removed — no longer needed.
+
+## Where things stand for the rebuild
+
+**Assets ready to reuse:** 11 labelled images, a 28-concept copy bank (`campaigns/drafts/2026-07-deep-clean-150/02-CREATIVE-STRATEGY-AND-COPY.md`), and two service campaigns already built (Maintenance Valet, New Car Protection).
+
+**The working pattern to repeat per service:**
+1. One campaign per service — OUTCOME_ENGAGEMENT → CONVERSATIONS → WhatsApp
+2. Creative built inline via `ads_create_ad` with `object_story_spec` so `app_destination: WHATSAPP` can be set (attribution does not work without it)
+3. Service-specific prefill in the link's `?text=`, plain text, never pre-encoded
+4. CTA must be `WHATSAPP_MESSAGE` — no other CTA survives delivery on this objective
+5. "From £X" in the copy to pre-qualify
+
+**Known-good performance signals to carry forward:**
+- Dog Hair "Remove It Don't Mask It" — best Deep Clean performer (£0.10 per landing page view, 52% of delivery)
+- Door Scratch 4A — best SMART performer (£0.27/click, beat both bumper angles)
+- Embarrassment and specific-problem angles consistently outperformed premium/aspirational ones
+
+**Open questions for the rebuild:**
+- Does the native WhatsApp fix actually register conversations? Never confirmed — the ads were paused within hours of going live.
+- Does the ad-level prefill come through, or does Meta override with its default?
+- Images still needed: swirl before/after, headlight one-done-one-not, kerbed alloy, water beading.

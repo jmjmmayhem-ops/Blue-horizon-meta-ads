@@ -116,3 +116,28 @@ All 12 ACTIVE, no delivery issues. Old `wa.me` ads paused, not deleted.
 
 ## Still outstanding
 SMART Repairs (`120250773503190294`) still runs the old `wa.me` structure and will keep reporting 0 conversations. Apply the same fix once confirmed working on Deep Clean.
+
+---
+
+# UPDATE — Budget cut to £20/day total (29 Jul)
+
+Josh: *"cut total ad budget to £20 a day"* — account-wide, not per campaign.
+
+| Campaign | Ad set | Was | Now |
+|---|---|---|---|
+| Deep Clean | Broad Warwickshire | £12 | **£7** |
+| Deep Clean | High-Value Areas | £7 | **£4** |
+| Deep Clean | Retargeting Warm | £6 | **£3** |
+| SMART Repairs | Warwickshire 24–65 | £10 | **£6** |
+| | **TOTAL** | **£35** | **£20** |
+
+Deep Clean now £14/day, SMART Repairs £6/day. Proportional cut, structure unchanged.
+
+## Flagged risk — spread is now too thin
+Four ad sets sharing £20/day. Meta needs roughly 50 optimisation events per ad set per week to exit learning; at £3–7/day none of these will get near that, so all four will likely sit in "Learning Limited" indefinitely and delivery will stay erratic.
+
+**Recommendation (not actioned — needs Josh's approval):** consolidate rather than spread.
+- Pause **Retargeting Warm** (£3/day is below the threshold where a small warm audience can deliver; it was also the most expensive per click at £0.63) and fold its budget into Broad.
+- That gives Broad £10, High-Value £4, SMART £6 — three ad sets, one of them properly fed.
+
+Better to run two or three ad sets well than four badly.

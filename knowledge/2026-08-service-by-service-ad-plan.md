@@ -26,6 +26,21 @@ The three advertisers in that space (ChipsAway, The SMART Repair People) all run
 
 # PART 2 — Website audit and open questions
 
+> ## ⛔ THIS ENTIRE SECTION IS UNRELIABLE — DO NOT ACT ON IT
+>
+> **Josh confirmed (2 Aug) that the search-indexed content I used is from the OLD website.** The site has since been rebuilt, and the packages, prices and URLs below reflect a version that no longer exists.
+>
+> **Specifically discard:**
+> - "Daily Defender", "The Collector's Package", "Platinum Valet", "Platinum Deep Clean", "Signature Valet" — likely legacy package names
+> - The "from £350" detailing price and the "1-year ceramic coating" claim — both from stale pages
+> - The `/home-page-2-2-2-2-2-2` URL criticism — those are probably orphaned legacy pages, not the current structure. **The SEO recommendation built on it does not stand.**
+>
+> Questions Q1–Q5, Q8 and Q9 below were generated from stale data and should be ignored. **Q6 (aviation detailing) and Q7 (alloy go-ahead) still stand**, since those came from service listings rather than package pages — but confirm both.
+>
+> **Current packages and pricing must come from Josh directly.** Direct page loads are blocked by this environment (403 on every domain), so I cannot re-audit the live site myself.
+>
+> **PART 1 (ad library research) and PARTS 3–6 are unaffected** — those come from live Meta data and Blue Horizon's own campaign metrics, not the website.
+
 ## What matches the knowledge file ✅
 - Maintenance Valet **from £80** · Maintenance Plus **from £110** · Deep Clean **from £180**
 - Enhancement Detail **£495** · Refined Correction **£595** · Flawless Finish **£745**

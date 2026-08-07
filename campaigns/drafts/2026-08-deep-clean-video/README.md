@@ -112,3 +112,40 @@ If the lead-form test goes ahead, **connect the form to email or GHL before spen
 2. Josh builds the form to the spec above (or asks me to walk him through it)
 3. Josh sends me the `form_id`
 4. I build a parallel lead-form ad set in this campaign and run it head-to-head against WhatsApp — same video, same targeting, same budget. Clean test.
+
+---
+
+# UPDATE — 6 more variants added (14 total)
+
+Josh: *"need more variants for different people purposes ect to get forms filled."*
+
+Six additional angles, each aimed at a different person and a different reason to book:
+
+| Ad | ID | Who it targets |
+|---|---|---|
+| DCV9 Parents Family Car | `120250991639850294` | Parents — crumbs, spills, seat rails |
+| DCV10 Van & Business Owners | `120250991759680294` | Tradespeople, mobile businesses — **"your van is your advert"** |
+| DCV11 Busy Professionals | `120250991796100294` | Time-poor — "your Saturday back" |
+| DCV12 Just Bought Used Car | `120250991822830294` | New owners — hygiene/ownership moment |
+| DCV13 Smoke & Odour | `120250991873680294` | Smokers, pet owners, damp — odour at source |
+| DCV14 Holiday Road Trip | `120250991888910294` | Seasonal — pre-trip prep |
+
+**DCV10 is the one to watch.** The van/business angle is completely untapped locally, it's backed by a real named review (Sarah M.'s dog-grooming van), and business owners expense vehicle presentation rather than treating it as discretionary spend. Nobody in the Warwickshire ad library is targeting it.
+
+**All 14 clean** — no delivery errors. Still PAUSED, £0 spent.
+
+## ⚠️ 14 ads on £12/day is a problem
+
+Roughly **£0.86 per ad per day**. Meta needs ~£15 of spend per ad to form a verdict, so a full read on all fourteen would take **two-and-a-half weeks**.
+
+What will actually happen: Meta concentrates delivery on 2–3 winners within days and barely serves the rest. That's not useless — it *does* surface a winner — but it isn't the "test everything" outcome the variant count implies.
+
+**Three options:**
+1. **Raise to £25–30/day** — gives a genuine read on all 14 in about a week
+2. **Launch 6–7 now, hold the rest as a refresh pool** — proper test, staged
+3. **Run all 14 at £12** and accept Meta picks the winners fast
+
+Recommendation: **option 2**. Launch DCV1, 3, 6, 8, 10, 13 — value anchor, embarrassment, real review, dog owners, van/business, odour. Widest spread of distinct buyers, each properly fed. Rotate the rest in at day 14 as fatigue defence.
+
+## On "getting forms filled"
+These all currently point at **WhatsApp**, because the lead form is still blocked on the Lead Gen ToS (see above). **Every one of these variants is reusable** — once the form exists, the same 14 creatives can be duplicated into a lead-form ad set unchanged. No copy is wasted.

@@ -149,3 +149,36 @@ Recommendation: **option 2**. Launch DCV1, 3, 6, 8, 10, 13 — value anchor, emb
 
 ## On "getting forms filled"
 These all currently point at **WhatsApp**, because the lead form is still blocked on the Lead Gen ToS (see above). **Every one of these variants is reusable** — once the form exists, the same 14 creatives can be duplicated into a lead-form ad set unchanged. No copy is wasted.
+
+---
+
+# UPDATE — Lead form campaign (2 Aug)
+
+Josh: *"no I dont want whatsapp i want lead forms only."*
+
+**Lead form ID supplied by Josh: `1563796925239788`**
+
+**Campaign built:** `BH | Meta Leads | Deep Clean VIDEO | Affluent Rugby+20 | 2026-08` — `120250992441180294` (OUTCOME_LEADS, PAUSED)
+
+**Ad set: BLOCKED.** Two attempts, same rejection both times:
+```
+Terms of Service Not Accepted: You can't run lead ads until your
+Facebook Page accepts Facebook's Lead Generation Terms of Service.
+error_subcode: 1815089
+```
+
+## Diagnosis
+- `ads_get_ad_account_pages` → **Blue Horizon Detailing** (`110694795276891`), `leadgen_tos_accepted: **false**`
+- `ads_get_user_pages` → **only one Page exists**, so there is no Page mismatch and no wrong-account theory
+
+**Why the form saved but the ad set didn't:** creating an Instant Form does **not** require the Lead Gen ToS. *Running* lead ads does. So a form can exist on a Page that hasn't accepted — which is exactly the state here. Josh seeing "approved" on his screen is likely acceptance at user/business level, not on this specific Page.
+
+## The fix
+Accept the Lead Gen ToS **as an admin of the Blue Horizon Detailing Page specifically**:
+- https://www.facebook.com/legal/leadgen/tos (select the Page when prompted), **or**
+- Build one lead ad set manually in Ads Manager — Meta shows an inline "Accept Terms" prompt in context, which is the most reliable way to hit the right Page.
+
+**Workaround if the ToS link keeps misbehaving:** Josh creates the ad set manually in Ads Manager (targeting per spec above), then I add all 14 ads to it via API. Only the ad set needs the UI.
+
+## Ready to go the moment it clears
+All 14 creatives exist and transfer unchanged — only the CTA and destination swap from WhatsApp to `LEAD_GENERATION` + form `1563796925239788`.

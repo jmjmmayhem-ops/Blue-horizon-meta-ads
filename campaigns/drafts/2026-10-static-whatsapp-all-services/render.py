@@ -25,7 +25,7 @@ def tracked(draw,xy,text,f,fill,spacing,anchor='l'):
         draw.text((x,y),ch,font=f,fill=fill); x+=w+spacing
     return total
 def load_photo(idx, focus=(0.5,0.5), zoom=1.0, blur=None):
-    im=Image.open(f'drive/full/{idx:04d}.jpg'); im=ImageOps.exif_transpose(im).convert('RGB')
+    im=Image.open(idx if isinstance(idx,str) else f'drive/full/{idx:04d}.jpg'); im=ImageOps.exif_transpose(im).convert('RGB')
     if im.width>2400: im=im.resize((2400,int(im.height*2400/im.width)),Image.LANCZOS)
     for b in (blur or []):
         x0,y0,x1,y1=[int(v*s) for v,s in zip(b,(im.width,im.height,im.width,im.height))]

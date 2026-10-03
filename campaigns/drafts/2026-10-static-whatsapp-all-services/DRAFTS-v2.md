@@ -45,3 +45,45 @@ Josh: "I'm gonna start expecting all of the ads that you made to look like this"
 | PC1 | PRIVATE COLLECTION CARE | Every car clean, protected and ready to drive. | Bespoke. Quoted per collection. | 20260827_135331.jpg | 120251923814040294 | 5699ca01b5402027f63db7d3be2f8cec |
 | PC2 | READY TO DRIVE. EVERY TIME. | Scheduled visits at your property. | Bespoke. Quoted per collection. | 20260824_165159.jpg | 120251923814070294 | ffffb9723a29ed74509a9d8f45b24fa5 |
 | PC3 | DISCREET. AT YOUR HOME. | Valet to full correction, one trusted pair of hands. | Bespoke. Quoted per collection. | 20260224_163647.jpg | 120251923814230294 | 858be0392b71ab906754f52a741bf067 |
+
+# v4 creatives (3 Oct 2026, late evening) — owner feedback round 1
+
+Josh's feedback on the v2 preview sheets: headlight ads were not headlight pictures; soft top needed much better pictures; Deep Clean needed more variants and nicer cars with nice interior shots (not the Fords); Maintenance Valet and Maintenance Plus need at least four variants with clean shots of nice and average cars; Enhancement Detail perfect, left alone; Refined Correction good, add more high-end cars; the Audi TT inset was mid-polish not swirls; Flawless Finish needed real clean paintwork shots.
+
+**What changed (23 ads rebuilt or added; ED, NCP, CC, CV, CMV, PC untouched):**
+- DC: 5 ads (was 3). All interiors from the nicer cars in the library; the Ford shots are gone. DC1–DC3 v2 replaced, DC4 and DC5 new.
+- MV: now 5 ads (MV1, MV2 kept; MV3 Range Rover built this time, MV4 and MV5 added: a mix of premium and everyday cars).
+- MP: 4 ads (MP3 and MP4 added, interior and exterior).
+- RC: 6 ads (RC2 rebuilt with the TT inset captioned "MID-POLISH"; RC4, RC5 Volvo, RC6 Spectre added).
+- FF: 5 ads (FF3–FF5 added, clean reflective paintwork only, no insets).
+- HL: both rebuilt on real headlight photos from the website (Range Rover Westminster, Porsche Taycan GTS) with a genuine hazed-lens "BEFORE" inset.
+- ST: 4 ads (was 2). ST1 is the website soft-top process shot split into before/after; ST2–ST4 are fabric-hood cars from the Drive library.
+- Plates: every visible plate pixelated on its exact quadrilateral (hand-set pixel quads for MV3, MV4, RC5, RC6; see `plate_polys.json`). Checked at 4x zoom.
+
+**Ads Manager state:** 23 new `v4` ads created in the existing ad sets (all DRAFT, no validation errors). The eight v2 ads they replace (DC1–DC3, RC2, HL1, HL2, ST1, ST2) are set to DELETED in the draft. Still outstanding for Josh at publish time: delete old RC1 v1 (120251919588800294) and discard the `ZZ DISCARD | SMART Repairs` draft campaign. Images were fetched by Meta from this branch at commit 98992b9.
+
+| Ad | Headline on image | Sub-line | Price block | Photo(s) | Draft ad ID | Image hash |
+|---|---|---|---|---|---|---|
+| DC1 | DEEP CLEAN INSIDE & OUT | Seats, carpets, every nook and crevice. | Was from £180 / Now from £150 | 20241004_181226.jpg | 120251924486060294 | 5551331976a9f0c2158d92dedc33e060 |
+| DC2 | KEEP THE DOG. LOSE THE HAIR. | Shampoo and extraction, not an air freshener. | Was from £180 / Now from £150 | 20241010_140048.jpg | 120251924486200294 | 094f131c464c0625a95d5fe64201943b |
+| DC3 | FAMILY CAR? WE'VE SEEN WORSE. | Crumbs, mud, spills and stains. Gone. | Was from £180 / Now from £150 | 20241031_153915.jpg | 120251924486350294 | 24923ca94ad20053c506cf3988ea3882 |
+| DC4 | LIKE NEW INSIDE AGAIN | Leather, carpets, trims, glass, door shuts. | Was from £180 / Now from £150 | 20241030_112741.jpg | 120251924486620294 | 1d2cf86d59badd09b95cc37b59d5be82 |
+| DC5 | IT'S NOT JUST A SMELL | We go to the source. Shampoo and extraction. | Was from £180 / Now from £150 | 20260815_104504.jpg | 120251924486850294 | 3ef1096742cbf8727a07511a2c7d4a3e |
+| MV3 | VALETED ON YOUR DRIVEWAY | We bring the water. You just need a socket. | From £80 | 20240928_123332.jpg | 120251924487020294 | 58f664d9abeca62415d5ead9ccc1e398 |
+| MV4 | REGULAR CARE, DONE PROPERLY | Interior reset, safe wash, wheels, glass, wax. | From £80 | 20260224_124936.jpg | 120251924487310294 | 49048fa244135190c668e89bd6d33e22 |
+| MV5 | KEEP IT LOOKING NEW | Regular valets at your home or work. | From £80 | 20250502_134224.jpg | 120251924487530294 | 1b65bc9a91a2215fd59e3eabd228eb20 |
+| MP3 | MAINTENANCE PLUS | Leather, wheel and glass properly done. | From £110 | 20260224_163905.jpg | 120251924487690294 | 2e209f95e557771ed00c1bfaee7f469a |
+| MP4 | INSIDE AND OUT, BROUGHT BACK UP | Everything in the valet plus the detail work. | From £110 | 20240920_143815.jpg | 120251924488130294 | c3e89dfaa0b25b5066358da124b62aba |
+| RC2 | YOUR PAINT ISN'T TIRED. IT'S SCRATCHED. | Swirls removed, then sealed for 5 years. | Was from £595 / Now from £495 | 20260815_111047.jpg + inset 20240821_105113.jpg ("MID-POLISH") | 120251924488920294 | 39bb7da7771ed7d5c208ee0b457b4702 |
+| RC4 | REFINED CORRECTION | Swirls removed, then sealed for 5 years. | Was from £595 / Now from £495 | 20250628_142012.jpg | 120251924489300294 | 86b8b8b1643c6ae564d75a01e16c3189 |
+| RC5 | YOUR PAINT ISN'T TIRED. IT'S SCRATCHED. | Paint thickness checked, corrected, coated. | Was from £595 / Now from £495 | 20250125_155932.jpg | 120251924489750294 | 515cbd6fa8b4d5328c2afb72626445e2 |
+| RC6 | CORRECT IT ONCE. PROTECT IT 5 YEARS. | Gtechniq Crystal Serum Light included. | Was from £595 / Now from £495 | 20260910_160157.jpg | 120251924490430294 | 80e9d235fe719bfe4caf58fb39c80b33 |
+| FF3 | FLAWLESS FINISH | Multi-stage correction. Show-car gloss. | From £745 | 20260910_160013.jpg | 120251924491100294 | 7369fb4d76092712508691cb1fa831da |
+| FF4 | PAINT YOU CAN SEE YOURSELF IN | Reflections like glass, protected for 5 years. | From £745 | 20241004_145806.jpg | 120251924491720294 | 0359069e36cb47c1758ea0b4c2f5a320 |
+| FF5 | DEPTH AND CLARITY A WASH CAN'T GIVE | Heavier swirls and scratches, properly removed. | From £745 | 20241003_140302.jpg | 120251924492260294 | a6a4576d9e2ef2b16ee317946b84e3a4 |
+| HL1 | HEADLIGHT RESTORATION | Hazed, yellow lenses restored and re-cleared. | £90 per pair | headlight-restoration-range-rover-westminster-warwickshire.jpg + inset 20240816_140035.jpg ("BEFORE") | 120251924493000294 | f3767c84516649d5162b57933080b234 |
+| HL2 | THE £90 FIX THAT SHOWS | Not just polished. Re-cleared to last. | £90 per pair | porsche-taycan-gts-front-headlight-warwickshire.jpg + inset 20240816_140035.jpg ("BEFORE") | 120251924493610294 | 2be99aeb16eca6a2bb7334ae9cf8b391 |
+| ST1 | SOFT TOP CLEAN & PROTECT | Algae and mould out. Waterproofed for a year. | From £100 | st_after.jpg + inset st_before.jpg ("BEFORE") | 120251924493950294 | c98b35d4ddc57bbadac7cd745b01bafd |
+| ST2 | TREAT FABRIC LIKE FABRIC | Deep clean, dry, re-proof. No pressure washer. | From £100 | 20250114_162441.jpg | 120251924494370294 | d38cda65fe5ece3c9d19c72b17912500 |
+| ST3 | GREEN TINGE ON THE ROOF? | That's algae. We lift it out and re-proof the hood. | From £100 | 20241007_114550.jpg | 120251924494450294 | 0c4becfe7abd2a5a76981a4e2bbd0149 |
+| ST4 | RAIN BEADS OFF. NOT SOAKS IN. | Cleaned, dried and waterproofed for around a year. | From £100 | 20260225_171715.jpg | 120251924494520294 | 0447199ac78bcce928006dacadf512ea |

@@ -5,21 +5,46 @@
   "ads_v2": {
    "DC1": {
     "ad_id": "120251923809750294",
-    "image_hash": "7c7f0763a087444ddcd141a89558129c"
+    "image_hash": "7c7f0763a087444ddcd141a89558129c",
+    "status": "DELETED (replaced by v4)"
    },
    "DC2": {
     "ad_id": "120251923809780294",
-    "image_hash": "0bed8727e5dfb2d2330d9db3502af2d4"
+    "image_hash": "0bed8727e5dfb2d2330d9db3502af2d4",
+    "status": "DELETED (replaced by v4)"
    },
    "DC3": {
     "ad_id": "120251923809810294",
-    "image_hash": "9ef5e245f752c08d3c1a159a38307b87"
+    "image_hash": "9ef5e245f752c08d3c1a159a38307b87",
+    "status": "DELETED (replaced by v4)"
    }
   },
   "ads_v1_old": {
    "DC1": "120251919384380294",
    "DC2": "120251919577590294",
    "DC3": "120251919577650294"
+  },
+  "ads_v4": {
+   "DC1": {
+    "ad_id": "120251924486060294",
+    "image_hash": "5551331976a9f0c2158d92dedc33e060"
+   },
+   "DC2": {
+    "ad_id": "120251924486200294",
+    "image_hash": "094f131c464c0625a95d5fe64201943b"
+   },
+   "DC3": {
+    "ad_id": "120251924486350294",
+    "image_hash": "24923ca94ad20053c506cf3988ea3882"
+   },
+   "DC4": {
+    "ad_id": "120251924486620294",
+    "image_hash": "1d2cf86d59badd09b95cc37b59d5be82"
+   },
+   "DC5": {
+    "ad_id": "120251924486850294",
+    "image_hash": "3ef1096742cbf8727a07511a2c7d4a3e"
+   }
   }
  },
  "MV": {
@@ -39,6 +64,20 @@
    "MV1": "120251919578780294",
    "MV2": "120251919579910294",
    "MV3": "120251919586750294"
+  },
+  "ads_v4": {
+   "MV3": {
+    "ad_id": "120251924487020294",
+    "image_hash": "58f664d9abeca62415d5ead9ccc1e398"
+   },
+   "MV4": {
+    "ad_id": "120251924487310294",
+    "image_hash": "49048fa244135190c668e89bd6d33e22"
+   },
+   "MV5": {
+    "ad_id": "120251924487530294",
+    "image_hash": "1b65bc9a91a2215fd59e3eabd228eb20"
+   }
   }
  },
  "MP": {
@@ -57,6 +96,16 @@
   "ads_v1_old": {
    "MP1": "120251919587870294",
    "MP2": "120251919588280294"
+  },
+  "ads_v4": {
+   "MP3": {
+    "ad_id": "120251924487690294",
+    "image_hash": "2e209f95e557771ed00c1bfaee7f469a"
+   },
+   "MP4": {
+    "ad_id": "120251924488130294",
+    "image_hash": "c3e89dfaa0b25b5066358da124b62aba"
+   }
   }
  },
  "ED": {
@@ -92,7 +141,8 @@
    },
    "RC2": {
     "ad_id": "120251923810210294",
-    "image_hash": "fb316ddb9414b50821de0c7bef9a5ea7"
+    "image_hash": "fb316ddb9414b50821de0c7bef9a5ea7",
+    "status": "DELETED (replaced by v4)"
    },
    "RC3": {
     "ad_id": "120251923810240294",
@@ -103,6 +153,24 @@
    "RC1": "120251919588800294",
    "RC2": "120251919588850294",
    "RC3": "120251919588890294"
+  },
+  "ads_v4": {
+   "RC2": {
+    "ad_id": "120251924488920294",
+    "image_hash": "39bb7da7771ed7d5c208ee0b457b4702"
+   },
+   "RC4": {
+    "ad_id": "120251924489300294",
+    "image_hash": "86b8b8b1643c6ae564d75a01e16c3189"
+   },
+   "RC5": {
+    "ad_id": "120251924489750294",
+    "image_hash": "515cbd6fa8b4d5328c2afb72626445e2"
+   },
+   "RC6": {
+    "ad_id": "120251924490430294",
+    "image_hash": "80e9d235fe719bfe4caf58fb39c80b33"
+   }
   }
  },
  "FF": {
@@ -121,6 +189,20 @@
   "ads_v1_old": {
    "FF1": "120251919588920294",
    "FF2": "120251919588960294"
+  },
+  "ads_v4": {
+   "FF3": {
+    "ad_id": "120251924491100294",
+    "image_hash": "7369fb4d76092712508691cb1fa831da"
+   },
+   "FF4": {
+    "ad_id": "120251924491720294",
+    "image_hash": "0359069e36cb47c1758ea0b4c2f5a320"
+   },
+   "FF5": {
+    "ad_id": "120251924492260294",
+    "image_hash": "a6a4576d9e2ef2b16ee317946b84e3a4"
+   }
   }
  },
  "NCP": {
@@ -175,16 +257,28 @@
   "ads_v2": {
    "HL1": {
     "ad_id": "120251923812060294",
-    "image_hash": "62ce8f02f22e14b9bea44b9ba1560f57"
+    "image_hash": "62ce8f02f22e14b9bea44b9ba1560f57",
+    "status": "DELETED (replaced by v4)"
    },
    "HL2": {
     "ad_id": "120251923812140294",
-    "image_hash": "d148a6ec4b40657f94fb4ab3fb13f0c7"
+    "image_hash": "d148a6ec4b40657f94fb4ab3fb13f0c7",
+    "status": "DELETED (replaced by v4)"
    }
   },
   "ads_v1_old": {
    "HL1": "120251919589420294",
    "HL2": "120251919589460294"
+  },
+  "ads_v4": {
+   "HL1": {
+    "ad_id": "120251924493000294",
+    "image_hash": "f3767c84516649d5162b57933080b234"
+   },
+   "HL2": {
+    "ad_id": "120251924493610294",
+    "image_hash": "2be99aeb16eca6a2bb7334ae9cf8b391"
+   }
   }
  },
  "ST": {
@@ -193,16 +287,36 @@
   "ads_v2": {
    "ST1": {
     "ad_id": "120251923812440294",
-    "image_hash": "47f1433618fac6314fa00098684a4fe5"
+    "image_hash": "47f1433618fac6314fa00098684a4fe5",
+    "status": "DELETED (replaced by v4)"
    },
    "ST2": {
     "ad_id": "120251923812590294",
-    "image_hash": "6ccb5edf8f4b02d8e64501cc72103735"
+    "image_hash": "6ccb5edf8f4b02d8e64501cc72103735",
+    "status": "DELETED (replaced by v4)"
    }
   },
   "ads_v1_old": {
    "ST1": "120251919589500294",
    "ST2": "120251919589610294"
+  },
+  "ads_v4": {
+   "ST1": {
+    "ad_id": "120251924493950294",
+    "image_hash": "c98b35d4ddc57bbadac7cd745b01bafd"
+   },
+   "ST2": {
+    "ad_id": "120251924494370294",
+    "image_hash": "d38cda65fe5ece3c9d19c72b17912500"
+   },
+   "ST3": {
+    "ad_id": "120251924494450294",
+    "image_hash": "0c4becfe7abd2a5a76981a4e2bbd0149"
+   },
+   "ST4": {
+    "ad_id": "120251924494520294",
+    "image_hash": "0447199ac78bcce928006dacadf512ea"
+   }
   }
  },
  "CV": {

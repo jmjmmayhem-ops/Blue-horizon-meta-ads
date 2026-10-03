@@ -188,30 +188,6 @@
       "cta": "GET MY QUOTE ON WHATSAPP",
       "zoom": 1.0
      }
-    },
-    {
-     "code": "MV3",
-     "headline": "Valeted On Your Driveway",
-     "description": "Maintenance Valet from \u00a380. We bring the water.",
-     "primary": "No queueing at a hand car wash on a Saturday. No dropping the car off and arranging a lift.\n\nBlue Horizon comes to you with everything needed, including the water, and gives your car a full Maintenance Valet on your driveway from \u00a380. 4.8-star Google rating, 50+ reviews, trusted with prestige cars across Warwickshire.\n\nWhatsApp Josh with your car and postcode for a quote.",
-     "design": {
-      "h1": "VALETED ON",
-      "h2": "YOUR DRIVEWAY",
-      "sub": "We bring the water. You just need a socket.",
-      "img": 547,
-      "focus": [
-       0.5,
-       0.5
-      ],
-      "kicker": "MAINTENANCE VALET  \u2022  4.8-STAR GOOGLE RATING",
-      "price": {
-       "mode": "from",
-       "now": "\u00a380",
-       "label": "From "
-      },
-      "fine": "Per visit. Price and interval depend on vehicle and condition.",
-      "cta": "GET MY QUOTE ON WHATSAPP"
-     }
     }
    ]
   },

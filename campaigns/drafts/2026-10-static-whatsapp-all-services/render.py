@@ -49,28 +49,37 @@ def panel_blur(panel,boxes):
     return panel
 def rounded(draw,box,r,fill,outline=None,width=0):
     draw.rounded_rectangle(box,radius=r,fill=fill,outline=outline,width=width)
-def render(ad,out):
+def render(ad,out,code=None):
     img=Image.new('RGB',(W,H),NAVY); d=ImageDraw.Draw(img)
     # logo
     logo=Image.open('brand/logo_rgba.png').convert('RGBA'); lh=118; logo=logo.resize((int(logo.width*lh/logo.height),lh),Image.LANCZOS)
     img.paste(logo,(48,34),logo)
     tracked(d,(W-48,74),ad.get('tag','MOBILE  •  WARWICKSHIRE'),font(24,'Medium'),GREY,5,anchor='r')
     # headline
-    y=178
-    f1=fit_text(d,ad['h1'],W-96,ad.get('h1size',96),'ExtraBold')
-    d.text((48,y),ad['h1'],font=f1,fill=WHITE); y+=int(f1.size*1.08)
-    if ad.get('h2'):
-        f2=fit_text(d,ad['h2'],W-96,ad.get('h2size',f1.size),'ExtraBold')
-        d.text((48,y),ad['h2'],font=f2,fill=BLUE); y+=int(f2.size*1.08)
-    if ad.get('sub'):
-        fs=fit_text(d,ad['sub'],W-96,50,'SemiBold'); d.text((W/2,y+6),ad['sub'],font=fs,fill=WHITE,anchor='ma'); y+=int(fs.size*1.3)+10
+    base=ad.get('h1size',84)
+    while True:
+        y=168
+        f1=fit_text(d,ad['h1'],W-96,base,'ExtraBold'); y+=int(f1.size*1.06)
+        f2=fit_text(d,ad['h2'],W-96,min(base,f1.size),'ExtraBold') if ad.get('h2') else None
+        if f2: y+=int(f2.size*1.06)
+        fs=fit_text(d,ad['sub'],W-96,min(44,base//2+2),'SemiBold') if ad.get('sub') else None
+        if fs: y+=int(fs.size*1.25)+8
+        if y+14<=430 or base<=60: break
+        base-=2
+    y=168
+    d.text((48,y),ad['h1'],font=f1,fill=WHITE); y+=int(f1.size*1.06)
+    if f2: d.text((48,y),ad['h2'],font=f2,fill=BLUE); y+=int(f2.size*1.06)
+    if fs: d.text((W/2,y+4),ad['sub'],font=fs,fill=WHITE,anchor='ma'); y+=int(fs.size*1.25)+8
     # photo panel
-    top=max(y+16,430); bottom=975
+    top=430; bottom=975
     ph=bottom-top
     inset=ad.get('inset')
     if inset:
         main_w=int(W*0.70); im,fo,zo=load_photo(ad['img'],tuple(ad.get('focus',(0.5,0.5))),ad.get('zoom',1.0),ad.get('blur'))
-        img.paste(panel_blur(crop_to(im,main_w,ph,fo,zo),ad.get('pblur')),(0,top))
+        pan=crop_to(im,main_w,ph,fo,zo)
+        if code and os.path.exists(f'ads2/panelblur_{code}.png'):
+            pb=Image.open(f'ads2/panelblur_{code}.png').convert('RGB'); assert pb.size==pan.size,(code,pb.size,pan.size); pan=pb
+        img.paste(pan,(0,top))
         ix0=main_w+14; iw=W-ix0-20; ih=ph-28
         im2,fo2,zo2=load_photo(inset['img'],tuple(inset.get('focus',(0.5,0.5))),inset.get('zoom',1.0),inset.get('blur'))
         ins=crop_to(im2,iw-8,ih-8,fo2,zo2)
@@ -84,7 +93,10 @@ def render(ad,out):
         d.text((ix0+iw/2,top+14+ih-36),cap,font=fc,fill=WHITE,anchor='mm')
     else:
         im,fo,zo=load_photo(ad['img'],tuple(ad.get('focus',(0.5,0.5))),ad.get('zoom',1.0),ad.get('blur'))
-        img.paste(panel_blur(crop_to(im,W,ph,fo,zo),ad.get('pblur')),(0,top)); d=ImageDraw.Draw(img)
+        pan=crop_to(im,W,ph,fo,zo)
+        if code and os.path.exists(f'ads2/panelblur_{code}.png'):
+            pb=Image.open(f'ads2/panelblur_{code}.png').convert('RGB'); assert pb.size==pan.size,(code,pb.size,pan.size); pan=pb
+        img.paste(pan,(0,top)); d=ImageDraw.Draw(img)
     # badge
     if ad.get('badge'):
         b1,b2=ad['badge']
@@ -137,4 +149,4 @@ if __name__=='__main__':
     for c in spec['campaigns']:
         for a in c['ads']:
             if only and a['code'] not in only: continue
-            render(a['design'],f"ads2/out/{a['code']}.jpg"); print('rendered',a['code'])
+            render(a['design'],f"ads2/out/{a['code']}.jpg",a['code']); print('rendered',a['code'])

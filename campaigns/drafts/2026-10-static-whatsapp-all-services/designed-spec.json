@@ -148,10 +148,10 @@
       "h1": "MAINTENANCE",
       "h2": "VALET",
       "sub": "Inside and out, on your driveway.",
-      "img": 578,
+      "img": 1133,
       "focus": [
        0.5,
-       0.5
+       0.55
       ],
       "kicker": "REGULAR CARE  \u2022  DONE PROPERLY",
       "price": {
@@ -160,7 +160,8 @@
        "label": "From "
       },
       "fine": "Per visit. Price and interval depend on vehicle and condition.",
-      "cta": "GET MY QUOTE ON WHATSAPP"
+      "cta": "GET MY QUOTE ON WHATSAPP",
+      "zoom": 1.0
      }
     },
     {
@@ -172,10 +173,10 @@
       "h1": "KEEP IT",
       "h2": "LOOKING NEW",
       "sub": "Regular valets at your home or work.",
-      "img": 1046,
+      "img": 1166,
       "focus": [
        0.5,
-       0.5
+       0.55
       ],
       "kicker": "MAINTENANCE VALET  \u2022  EVERY FEW WEEKS",
       "price": {
@@ -184,7 +185,8 @@
        "label": "From "
       },
       "fine": "Per visit. Price and interval depend on vehicle and condition.",
-      "cta": "GET MY QUOTE ON WHATSAPP"
+      "cta": "GET MY QUOTE ON WHATSAPP",
+      "zoom": 1.0
      }
     },
     {
@@ -829,70 +831,6 @@
    ]
   },
   {
-   "key": "SR",
-   "name": "BH | Meta Messages | SMART Repairs Photo Quote | Rugby+20 | 2026-10",
-   "budget_pence": 800,
-   "targeting": "broad",
-   "prefill": "Hi Josh, I'd like a SMART repair quote. I'll send photos of the damage. Here's my car and postcode:",
-   "ads": [
-    {
-     "code": "SR1",
-     "headline": "Send A Photo. Get A Price.",
-     "description": "SMART repairs at your home. Rugby + 20 miles.",
-     "primary": "Scuffed bumper? Send a photo, get a price.\n\nBlue Horizon SMART repairs are localised, colour-matched paint repairs for bumper scuffs, scratches and chips, carried out at your home. No bodyshop, no courtesy car, no days without your car. Lifetime ownership guarantee on our workmanship.\n\nWhatsApp Josh photos of the damage with your car and postcode for a quote.",
-     "design": {
-      "h1": "SEND A PHOTO.",
-      "h2": "GET A PRICE.",
-      "sub": "Scuffs, scratches and chips fixed at your home.",
-      "img": 1216,
-      "focus": [
-       0.5,
-       0.5
-      ],
-      "inset": {
-       "img": 1212,
-       "caption": "IN PROGRESS"
-      },
-      "kicker": "SMART REPAIRS  \u2022  COLOUR MATCHED  \u2022  GUARANTEED",
-      "price": {
-       "mode": "text",
-       "now": "Quoted from your photos"
-      },
-      "fine": "Lifetime ownership guarantee on workmanship.",
-      "cta": "GET MY QUOTE ON WHATSAPP"
-     }
-    },
-    {
-     "code": "SR2",
-     "headline": "Fixed On Your Driveway",
-     "description": "Colour-matched SMART repair. Photo quote.",
-     "primary": "A car park scratch down the door shouldn't mean a week at a bodyshop and a four-figure bill.\n\nSMART repair: the damaged area is prepared, colour-matched and refinished on your driveway, usually in a few hours. Metallics and pearls matched too. Guaranteed for as long as you own the car.\n\nSend Josh a photo of the damage on WhatsApp, with your car and postcode, for a quote.",
-     "design": {
-      "h1": "FIXED ON",
-      "h2": "YOUR DRIVEWAY",
-      "sub": "No bodyshop. No courtesy car. Usually a few hours.",
-      "img": 1214,
-      "focus": [
-       0.56,
-       0.5
-      ],
-      "inset": {
-       "img": 1213,
-       "caption": "IN PROGRESS"
-      },
-      "kicker": "SMART REPAIRS  \u2022  RUGBY + 20 MILES",
-      "price": {
-       "mode": "text",
-       "now": "Quoted from your photos"
-      },
-      "fine": "Lifetime ownership guarantee on workmanship.",
-      "cta": "GET MY QUOTE ON WHATSAPP",
-      "zoom": 1.1
-     }
-    }
-   ]
-  },
-  {
    "key": "CV",
    "name": "BH | Meta Messages | Caravan & Motorhome Care | Rugby+20 | 2026-10",
    "budget_pence": 300,
@@ -986,10 +924,10 @@
       "h1": "WORKS HARD.",
       "h2": "STILL LOOKS SHARP.",
       "sub": "Pickups, vans and work trucks.",
-      "img": 1046,
+      "img": 1044,
       "focus": [
        0.5,
-       0.5
+       0.55
       ],
       "kicker": "VALETING  \u2022  DEEP CLEAN  \u2022  PROTECTION",
       "price": {
@@ -997,7 +935,8 @@
        "now": "Quoted per vehicle"
       },
       "fine": "Scope and price agreed before we start.",
-      "cta": "GET MY QUOTE ON WHATSAPP"
+      "cta": "GET MY QUOTE ON WHATSAPP",
+      "zoom": 1.0
      }
     }
    ]

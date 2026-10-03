@@ -50,3 +50,34 @@ def apply(panel, polys):
         m=cv2.GaussianBlur(m,(0,0),1.5)[:,:,None]
         arr[y:y+h,x:x+w]=(pix*m+reg*(1-m)).astype(np.uint8)
     return Image.fromarray(arr[:,:,::-1])
+
+def find_plate_text(panel, box):
+    """Locate a plate by its characters: dark glyph blobs on a light background inside a loose region. Returns quad or None."""
+    W,H=panel.size
+    x0,y0,x1,y1=[int(v*s) for v,s in zip(box,(W,H,W,H))]
+    roi=np.array(panel.crop((x0,y0,x1,y1)))[:,:,::-1]
+    g=cv2.cvtColor(roi,cv2.COLOR_BGR2GRAY)
+    th=cv2.adaptiveThreshold(g,255,cv2.ADAPTIVE_THRESH_GAUSSIAN_C,cv2.THRESH_BINARY_INV,21,10)
+    n,lab,stats,_=cv2.connectedComponentsWithStats(th)
+    glyphs=[]
+    for s in stats[1:]:
+        x,y,w,h,a=s
+        if 8<=h<=70 and 2<=w<=50 and 0.15<=w/h<=1.1 and a>20:
+            # light background around?
+            glyphs.append((x,y,w,h))
+    if len(glyphs)<4: return None
+    # cluster glyphs by similar height and y
+    best=None
+    for gy in glyphs:
+        x,y,w,h=gy
+        grp=[g2 for g2 in glyphs if abs(g2[1]+g2[3]/2-(y+h/2))<h*0.6 and 0.6<g2[3]/h<1.6]
+        if len(grp)>=4:
+            xs=[g2[0] for g2 in grp]+[g2[0]+g2[2] for g2 in grp]; ys=[g2[1] for g2 in grp]+[g2[1]+g2[3] for g2 in grp]
+            width=max(xs)-min(xs); height=max(ys)-min(ys)
+            if 2.0<width/max(height,1)<9 and (best is None or len(grp)>best[0]): best=(len(grp),min(xs),min(ys),max(xs),max(ys))
+    if best is None: return None
+    _,bx0,by0,bx1,by1=best
+    padx=int((bx1-bx0)*0.12)+6; pady=int((by1-by0)*0.35)+6
+    pts=np.array([[bx0-padx,by0-pady],[bx1+padx,by0-pady],[bx1+padx,by1+pady],[bx0-padx,by1+pady]],dtype=np.int32)
+    pts[:,0]+=x0; pts[:,1]+=y0
+    return pts

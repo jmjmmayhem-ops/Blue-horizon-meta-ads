@@ -273,13 +273,16 @@
   "ads_v4": {
    "HL1": {
     "ad_id": "120251924493000294",
-    "image_hash": "f3767c84516649d5162b57933080b234"
+    "image_hash": "f3767c84516649d5162b57933080b234",
+    "status": "DELETED (owner, 4 Oct: no headlight ads)"
    },
    "HL2": {
     "ad_id": "120251924493610294",
-    "image_hash": "2be99aeb16eca6a2bb7334ae9cf8b391"
+    "image_hash": "2be99aeb16eca6a2bb7334ae9cf8b391",
+    "status": "DELETED (owner, 4 Oct: no headlight ads)"
    }
-  }
+  },
+  "campaign_note": "renamed DELETE | Headlight Restoration ... (draft campaign cannot be deleted via API)"
  },
  "ST": {
   "campaign": "120251919275120294",
@@ -311,11 +314,13 @@
    },
    "ST3": {
     "ad_id": "120251924494450294",
-    "image_hash": "0c4becfe7abd2a5a76981a4e2bbd0149"
+    "image_hash": "0c4becfe7abd2a5a76981a4e2bbd0149",
+    "status": "DELETED (owner, 4 Oct: keep ST1 and ST2 only)"
    },
    "ST4": {
     "ad_id": "120251924494520294",
-    "image_hash": "0447199ac78bcce928006dacadf512ea"
+    "image_hash": "0447199ac78bcce928006dacadf512ea",
+    "status": "DELETED (owner, 4 Oct: keep ST1 and ST2 only)"
    }
   }
  },
@@ -325,16 +330,25 @@
   "ads_v2": {
    "CV1": {
     "ad_id": "120251923812940294",
-    "image_hash": "e7eaf339ddad3bec4669e9143c5b2650"
+    "image_hash": "e7eaf339ddad3bec4669e9143c5b2650",
+    "status": "DELETED (owner, 4 Oct: one caravan ad on his Coachman photo instead)"
    },
    "CV2": {
     "ad_id": "120251923813040294",
-    "image_hash": "a5aba16a443185077e2b37d60b43efc0"
+    "image_hash": "a5aba16a443185077e2b37d60b43efc0",
+    "status": "DELETED (owner, 4 Oct: one caravan ad on his Coachman photo instead)"
    }
   },
   "ads_v1_old": {
    "CV1": "120251919589790294",
    "CV2": "120251919590540294"
+  },
+  "ads_v5": {
+   "CV1": {
+    "ad_id": "120251933992860294",
+    "image_hash": "2375a7d160e5a663a5ad9b62784c932b",
+    "source": "website caravan-ceramic-coating-coachman-warwickshire.jpg"
+   }
   }
  },
  "CMV": {
@@ -343,17 +357,20 @@
   "ads_v2": {
    "CMV1": {
     "ad_id": "120251923813330294",
-    "image_hash": "993f5e912414c2a8e70ded290a5db14d"
+    "image_hash": "993f5e912414c2a8e70ded290a5db14d",
+    "status": "DELETED (owner, 4 Oct: no vans ads)"
    },
    "CMV2": {
     "ad_id": "120251923813740294",
-    "image_hash": "ab4196e33413c9b8c8384d2e086ae661"
+    "image_hash": "ab4196e33413c9b8c8384d2e086ae661",
+    "status": "DELETED (owner, 4 Oct: no vans ads)"
    }
   },
   "ads_v1_old": {
    "CMV1": "120251919591060294",
    "CMV2": "120251919591500294"
-  }
+  },
+  "campaign_note": "renamed DELETE | Vans & Commercial ... (draft campaign cannot be deleted via API)"
  },
  "PC": {
   "campaign": "120251919275340294",
@@ -361,21 +378,25 @@
   "ads_v2": {
    "PC1": {
     "ad_id": "120251923814040294",
-    "image_hash": "5699ca01b5402027f63db7d3be2f8cec"
+    "image_hash": "5699ca01b5402027f63db7d3be2f8cec",
+    "status": "PAUSED (owner, 4 Oct: remove for now; campaign renamed HOLD)"
    },
    "PC2": {
     "ad_id": "120251923814070294",
-    "image_hash": "ffffb9723a29ed74509a9d8f45b24fa5"
+    "image_hash": "ffffb9723a29ed74509a9d8f45b24fa5",
+    "status": "PAUSED (owner, 4 Oct: remove for now; campaign renamed HOLD)"
    },
    "PC3": {
     "ad_id": "120251923814230294",
-    "image_hash": "858be0392b71ab906754f52a741bf067"
+    "image_hash": "858be0392b71ab906754f52a741bf067",
+    "status": "PAUSED (owner, 4 Oct: remove for now; campaign renamed HOLD)"
    }
   },
   "ads_v1_old": {
    "PC1": "120251919591590294",
    "PC2": "120251919591670294"
-  }
+  },
+  "campaign_note": "renamed HOLD | Private Collection Care | ads paused for now"
  },
  "SR_discard": {
   "campaign": "120251923770910294",

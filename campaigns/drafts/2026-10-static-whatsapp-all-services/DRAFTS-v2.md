@@ -87,3 +87,15 @@ Josh's feedback on the v2 preview sheets: headlight ads were not headlight pictu
 | ST2 | TREAT FABRIC LIKE FABRIC | Deep clean, dry, re-proof. No pressure washer. | From £100 | 20250114_162441.jpg | 120251924494370294 | d38cda65fe5ece3c9d19c72b17912500 |
 | ST3 | GREEN TINGE ON THE ROOF? | That's algae. We lift it out and re-proof the hood. | From £100 | 20241007_114550.jpg | 120251924494450294 | 0c4becfe7abd2a5a76981a4e2bbd0149 |
 | ST4 | RAIN BEADS OFF. NOT SOAKS IN. | Cleaned, dried and waterproofed for around a year. | From £100 | 20260225_171715.jpg | 120251924494520294 | 0447199ac78bcce928006dacadf512ea |
+
+# Owner round 2 (4 Oct 2026, afternoon)
+
+Josh: "Remove and delete headlight restoration ads, for soft top only keep ST1 and ST2, remove and delete the caravan camper and motorhome care, I only want one ad for ceramic coating caravans using my actual caravan pictures, remove vans and commercial ads, remove the private collection care ads for now."
+
+- Headlights: HL1 v4 and HL2 v4 DELETED. Campaign 120251919275070294 cannot be deleted while it is only a draft, so it is PAUSED and renamed `DELETE | Headlight Restoration ...`.
+- Soft top: ST3 v4 and ST4 v4 DELETED; ST1 v4 and ST2 v4 stay.
+- Caravan: CV1 v2 and CV2 v2 DELETED (both used a VW T5 camper from the Drive library, not Josh's caravan). New **CV1 v5** `120251933992860294` (image hash 2375a7d160e5a663a5ad9b62784c932b) built on the website photo of Josh's own Coachman Festival 660 (`source-web/caravan-ceramic-coating-coachman-warwickshire.jpg`, no plate visible). Prefill: "Hi Josh, I'd like a quote for ceramic coating my caravan. I'll send photos. Here's my postcode:". Campaign keeps its id; rename to "Caravan Ceramic Coating" is Josh's call in Ads Manager.
+- Vans and commercial: CMV1 v2 and CMV2 v2 DELETED; campaign 120251919275260294 PAUSED and renamed `DELETE | Vans & Commercial ...`.
+- Private collection: PC1, PC2, PC3 v2 PAUSED (not deleted, "for now"); campaign 120251919275340294 renamed `HOLD | Private Collection Care ...`.
+- Draft now holds 36 active ads across 10 live campaigns: DC 5, MV 5, MP 4, ED 3, RC 6, FF 5, NCP 3, CC 3, ST 2, CV 1 (+ PC 3 paused).
+- Creative source for this round: commit 35d14b2 (CV1.jpg).

@@ -37,16 +37,16 @@
  "campaigns": [
   {
    "key": "DC",
-   "name": "BH | Meta Messages | Deep Clean Offer \u00a3150 | Rugby+20 | 2026-10",
+   "name": "BH | Meta Messages | Deep Clean Offer £150 | Rugby+20 | 2026-10",
    "budget_pence": 800,
    "targeting": "broad",
    "prefill": "Hi Josh, I'd like to book the Deep Clean offer. Here's my car and postcode:",
    "ads": [
     {
      "code": "DC1",
-     "headline": "Deep Clean Offer \u2013 \u00a3150",
+     "headline": "Deep Clean Offer – £150",
      "description": "Inside and out, at your home. Rugby + 20 miles.",
-     "primary": "Seats, carpets, door shuts, every nook and crevice, properly deep cleaned. Then a safe exterior wash with tar and iron removal, the engine bay cleaned and an upgraded sealant on the paint.\n\nThe Blue Horizon Deep Clean offer is \u00a3150 (usually from \u00a3180). We come to you across Rugby and Warwickshire, we bring the water, you just need a socket.\n\nMessage Josh on WhatsApp with your car and postcode for a date.",
+     "primary": "Seats, carpets, door shuts, every nook and crevice, properly deep cleaned. Then a safe exterior wash with tar and iron removal, the engine bay cleaned and an upgraded sealant on the paint.\n\nThe Blue Horizon Deep Clean offer is £150 (usually from £180). We come to you across Rugby and Warwickshire, we bring the water, you just need a socket.\n\nMessage Josh on WhatsApp with your car and postcode for a date.",
      "design": {
       "h1": "DEEP CLEAN",
       "h2": "INSIDE & OUT",
@@ -56,11 +56,11 @@
        0.5,
        0.5
       ],
-      "kicker": "DEEP CLEAN OFFER  \u2022  WE COME TO YOU",
+      "kicker": "DEEP CLEAN OFFER  •  WE COME TO YOU",
       "price": {
        "mode": "wasnow",
-       "was": "\u00a3180",
-       "now": "\u00a3150"
+       "was": "£180",
+       "now": "£150"
       },
       "cta": "GET MY QUOTE ON WHATSAPP",
       "fine": "Offer price for the current booking window.\nExtra charges may apply for excessive pet hair or heavy soiling."
@@ -69,8 +69,8 @@
     {
      "code": "DC2",
      "headline": "Keep The Dog. Lose The Hair.",
-     "description": "Deep Clean offer \u00a3150. We come to you.",
-     "primary": "Dog hair in the carpets, muddy paw prints, that damp-dog smell that never quite goes. We remove it properly with shampoo and extraction, not an air freshener over the top.\n\nDeep Clean offer \u00a3150 (usually from \u00a3180): full interior deep clean, safe exterior wash with tar and iron removal, engine bay clean and upgraded sealant. Done on your driveway.\n\nWhatsApp Josh with your car and postcode.",
+     "description": "Deep Clean offer £150. We come to you.",
+     "primary": "Dog hair in the carpets, muddy paw prints, that damp-dog smell that never quite goes. We remove it properly with shampoo and extraction, not an air freshener over the top.\n\nDeep Clean offer £150 (usually from £180): full interior deep clean, safe exterior wash with tar and iron removal, engine bay clean and upgraded sealant. Done on your driveway.\n\nWhatsApp Josh with your car and postcode.",
      "design": {
       "h1": "KEEP THE DOG.",
       "h2": "LOSE THE HAIR.",
@@ -80,11 +80,11 @@
        0.5,
        0.5
       ],
-      "kicker": "DEEP CLEAN OFFER  \u2022  INTERIOR + EXTERIOR",
+      "kicker": "DEEP CLEAN OFFER  •  INTERIOR + EXTERIOR",
       "price": {
        "mode": "wasnow",
-       "was": "\u00a3180",
-       "now": "\u00a3150"
+       "was": "£180",
+       "now": "£150"
       },
       "cta": "GET MY QUOTE ON WHATSAPP",
       "fine": "Offer price for the current booking window.\nExtra charges may apply for excessive pet hair or heavy soiling."
@@ -93,8 +93,8 @@
     {
      "code": "DC3",
      "headline": "Family Car? We've Seen Worse.",
-     "description": "Deep Clean offer \u00a3150. We come to you.",
-     "primary": "Crumbs in every crevice, mud in the carpets, a juice spill nobody owned up to. A Deep Clean puts it right: seats and carpets shampooed and extracted, every surface and door shut cleaned, then a safe exterior wash with tar and iron removal and an upgraded sealant.\n\n\u00a3150 on the current offer (usually from \u00a3180), done on your driveway across Rugby and Warwickshire.\n\nWhatsApp Josh with your car and postcode for a date.",
+     "description": "Deep Clean offer £150. We come to you.",
+     "primary": "Crumbs in every crevice, mud in the carpets, a juice spill nobody owned up to. A Deep Clean puts it right: seats and carpets shampooed and extracted, every surface and door shut cleaned, then a safe exterior wash with tar and iron removal and an upgraded sealant.\n\n£150 on the current offer (usually from £180), done on your driveway across Rugby and Warwickshire.\n\nWhatsApp Josh with your car and postcode for a date.",
      "design": {
       "h1": "FAMILY CAR?",
       "h2": "WE'VE SEEN WORSE.",
@@ -104,11 +104,11 @@
        0.5,
        0.5
       ],
-      "kicker": "DEEP CLEAN OFFER  \u2022  RUGBY + 20 MILES",
+      "kicker": "DEEP CLEAN OFFER  •  RUGBY + 20 MILES",
       "price": {
        "mode": "wasnow",
-       "was": "\u00a3180",
-       "now": "\u00a3150"
+       "was": "£180",
+       "now": "£150"
       },
       "cta": "GET MY QUOTE ON WHATSAPP",
       "fine": "Offer price for the current booking window.\nExtra charges may apply for excessive pet hair or heavy soiling."
@@ -117,8 +117,8 @@
     {
      "code": "DC4",
      "headline": "Like New Inside Again",
-     "description": "Deep Clean offer \u00a3150. We come to you.",
-     "primary": "Leather fed, carpets extracted, every vent, seam and door shut cleaned, then the outside decontaminated and sealed. That's what a Blue Horizon Deep Clean does, and it's why the car feels new again when you get back in.\n\n\u00a3150 on the current offer (usually from \u00a3180), done on your driveway across Rugby and Warwickshire, engine bay included.\n\nWhatsApp Josh with your car and postcode for a date.",
+     "description": "Deep Clean offer £150. We come to you.",
+     "primary": "Leather fed, carpets extracted, every vent, seam and door shut cleaned, then the outside decontaminated and sealed. That's what a Blue Horizon Deep Clean does, and it's why the car feels new again when you get back in.\n\n£150 on the current offer (usually from £180), done on your driveway across Rugby and Warwickshire, engine bay included.\n\nWhatsApp Josh with your car and postcode for a date.",
      "design": {
       "h1": "LIKE NEW",
       "h2": "INSIDE AGAIN",
@@ -128,11 +128,11 @@
        0.5,
        0.5
       ],
-      "kicker": "DEEP CLEAN OFFER  \u2022  WE COME TO YOU",
+      "kicker": "DEEP CLEAN OFFER  •  WE COME TO YOU",
       "price": {
        "mode": "wasnow",
-       "was": "\u00a3180",
-       "now": "\u00a3150"
+       "was": "£180",
+       "now": "£150"
       },
       "cta": "GET MY QUOTE ON WHATSAPP",
       "fine": "Offer price for the current booking window.\nExtra charges may apply for excessive pet hair or heavy soiling."
@@ -141,8 +141,8 @@
     {
      "code": "DC5",
      "headline": "It's Not Just A Smell",
-     "description": "Deep Clean offer \u00a3150 across Warwickshire.",
-     "primary": "Spilt milk, damp carpets, a smell you've stopped noticing but your passengers haven't. A Deep Clean goes to the source: carpets and seats shampooed and extracted, every surface cleaned, then the exterior decontaminated and sealed.\n\n\u00a3150 on the current offer (usually from \u00a3180), including the engine bay. Ozone treatment available after cleaning if it needs it.\n\nSend Josh your car and postcode on WhatsApp for a quote and a date.",
+     "description": "Deep Clean offer £150 across Warwickshire.",
+     "primary": "Spilt milk, damp carpets, a smell you've stopped noticing but your passengers haven't. A Deep Clean goes to the source: carpets and seats shampooed and extracted, every surface cleaned, then the exterior decontaminated and sealed.\n\n£150 on the current offer (usually from £180), including the engine bay. Ozone treatment available after cleaning if it needs it.\n\nSend Josh your car and postcode on WhatsApp for a quote and a date.",
      "design": {
       "h1": "IT'S NOT JUST",
       "h2": "A SMELL",
@@ -152,11 +152,11 @@
        0.5,
        0.5
       ],
-      "kicker": "DEEP CLEAN OFFER  \u2022  4.8-STAR GOOGLE RATING",
+      "kicker": "DEEP CLEAN OFFER  •  4.8-STAR GOOGLE RATING",
       "price": {
        "mode": "wasnow",
-       "was": "\u00a3180",
-       "now": "\u00a3150"
+       "was": "£180",
+       "now": "£150"
       },
       "cta": "GET MY QUOTE ON WHATSAPP",
       "fine": "Offer price for the current booking window.\nExtra charges may apply for excessive pet hair or heavy soiling."
@@ -166,16 +166,16 @@
   },
   {
    "key": "MV",
-   "name": "BH | Meta Messages | Maintenance Valet from \u00a380 | Rugby+20 | 2026-10",
+   "name": "BH | Meta Messages | Maintenance Valet from £80 | Rugby+20 | 2026-10",
    "budget_pence": 500,
    "targeting": "broad",
    "prefill": "Hi Josh, I'd like a quote for a Maintenance Valet. Here's my car and postcode:",
    "ads": [
     {
      "code": "MV1",
-     "headline": "Maintenance Valet From \u00a380",
+     "headline": "Maintenance Valet From £80",
      "description": "Regular care, done properly. We come to you.",
-     "primary": "A Maintenance Valet is the regular visit that keeps a clean car clean: full interior reset, safe exterior wash, wheels and glass, finished with Koch-Chemie Protector Wax. No swirl-inducing brushes, no cutting corners.\n\nFrom \u00a380 per visit, at your home or workplace across Rugby and Warwickshire. We agree the interval that suits your car.\n\nWhatsApp Josh with your car and postcode.",
+     "primary": "A Maintenance Valet is the regular visit that keeps a clean car clean: full interior reset, safe exterior wash, wheels and glass, finished with Koch-Chemie Protector Wax. No swirl-inducing brushes, no cutting corners.\n\nFrom £80 per visit, at your home or workplace across Rugby and Warwickshire. We agree the interval that suits your car.\n\nWhatsApp Josh with your car and postcode.",
      "design": {
       "h1": "MAINTENANCE",
       "h2": "VALET",
@@ -185,10 +185,10 @@
        0.5,
        0.55
       ],
-      "kicker": "REGULAR CARE  \u2022  DONE PROPERLY",
+      "kicker": "REGULAR CARE  •  DONE PROPERLY",
       "price": {
        "mode": "from",
-       "now": "\u00a380",
+       "now": "£80",
        "label": "From "
       },
       "fine": "Per visit. Price and interval depend on vehicle and condition.",
@@ -199,8 +199,8 @@
     {
      "code": "MV2",
      "headline": "Keep It Looking New",
-     "description": "From \u00a380 per visit. Rugby + 20 miles.",
-     "primary": "The cars that always look new aren't washed harder. They're maintained regularly by someone who knows what they're doing.\n\nMaintenance Valet from \u00a380: interior reset, safe exterior wash, wheels, glass and a protective wax, every few weeks at your door. Add headlight restoration (\u00a390 per pair) or an engine bay detail (\u00a325) on the same visit.\n\nMessage Josh on WhatsApp to set it up.",
+     "description": "From £80 per visit. Rugby + 20 miles.",
+     "primary": "The cars that always look new aren't washed harder. They're maintained regularly by someone who knows what they're doing.\n\nMaintenance Valet from £80: interior reset, safe exterior wash, wheels, glass and a protective wax, every few weeks at your door. Add headlight restoration (£90 per pair) or an engine bay detail (£25) on the same visit.\n\nMessage Josh on WhatsApp to set it up.",
      "design": {
       "h1": "KEEP IT",
       "h2": "LOOKING NEW",
@@ -210,10 +210,10 @@
        0.5,
        0.55
       ],
-      "kicker": "MAINTENANCE VALET  \u2022  EVERY FEW WEEKS",
+      "kicker": "MAINTENANCE VALET  •  EVERY FEW WEEKS",
       "price": {
        "mode": "from",
-       "now": "\u00a380",
+       "now": "£80",
        "label": "From "
       },
       "fine": "Per visit. Price and interval depend on vehicle and condition.",
@@ -224,8 +224,8 @@
     {
      "code": "MV3",
      "headline": "Valeted On Your Driveway",
-     "description": "Maintenance Valet from \u00a380. We bring the water.",
-     "primary": "No queueing at a hand car wash on a Saturday. No dropping the car off and arranging a lift.\n\nBlue Horizon comes to you with everything needed, including the water, and gives your car a full Maintenance Valet on your driveway from \u00a380. 4.8-star Google rating, 50+ reviews, trusted with prestige cars across Warwickshire.\n\nWhatsApp Josh with your car and postcode for a quote.",
+     "description": "Maintenance Valet from £80. We bring the water.",
+     "primary": "No queueing at a hand car wash on a Saturday. No dropping the car off and arranging a lift.\n\nBlue Horizon comes to you with everything needed, including the water, and gives your car a full Maintenance Valet on your driveway from £80. 4.8-star Google rating, 50+ reviews, trusted with prestige cars across Warwickshire.\n\nWhatsApp Josh with your car and postcode for a quote.",
      "design": {
       "h1": "VALETED ON",
       "h2": "YOUR DRIVEWAY",
@@ -235,10 +235,10 @@
        0.5,
        0.5
       ],
-      "kicker": "MAINTENANCE VALET  \u2022  4.8-STAR GOOGLE RATING",
+      "kicker": "MAINTENANCE VALET  •  4.8-STAR GOOGLE RATING",
       "price": {
        "mode": "from",
-       "now": "\u00a380",
+       "now": "£80",
        "label": "From "
       },
       "cta": "GET MY QUOTE ON WHATSAPP",
@@ -247,9 +247,9 @@
     },
     {
      "code": "MV4",
-     "headline": "Maintenance Valet From \u00a380",
+     "headline": "Maintenance Valet From £80",
      "description": "Regular care, done properly. We come to you.",
-     "primary": "A Maintenance Valet is the regular visit that keeps a clean car clean: full interior reset, safe exterior wash, wheels and glass, finished with Koch-Chemie Protector Wax. No swirl-inducing brushes, no cutting corners.\n\nFrom \u00a380 per visit, at your home or workplace across Rugby and Warwickshire. We agree the interval that suits your car.\n\nWhatsApp Josh with your car and postcode.",
+     "primary": "A Maintenance Valet is the regular visit that keeps a clean car clean: full interior reset, safe exterior wash, wheels and glass, finished with Koch-Chemie Protector Wax. No swirl-inducing brushes, no cutting corners.\n\nFrom £80 per visit, at your home or workplace across Rugby and Warwickshire. We agree the interval that suits your car.\n\nWhatsApp Josh with your car and postcode.",
      "design": {
       "h1": "REGULAR CARE,",
       "h2": "DONE PROPERLY",
@@ -259,10 +259,10 @@
        0.5,
        0.5
       ],
-      "kicker": "MAINTENANCE VALET  \u2022  EVERY FEW WEEKS",
+      "kicker": "MAINTENANCE VALET  •  EVERY FEW WEEKS",
       "price": {
        "mode": "from",
-       "now": "\u00a380",
+       "now": "£80",
        "label": "From "
       },
       "cta": "GET MY QUOTE ON WHATSAPP",
@@ -272,8 +272,8 @@
     {
      "code": "MV5",
      "headline": "Keep It Looking New",
-     "description": "From \u00a380 per visit. Rugby + 20 miles.",
-     "primary": "The cars that always look new aren't washed harder. They're maintained regularly by someone who knows what they're doing.\n\nMaintenance Valet from \u00a380: interior reset, safe exterior wash, wheels, glass and a protective wax, every few weeks at your door. Add headlight restoration (\u00a390 per pair) or an engine bay detail (\u00a325) on the same visit.\n\nMessage Josh on WhatsApp to set it up.",
+     "description": "From £80 per visit. Rugby + 20 miles.",
+     "primary": "The cars that always look new aren't washed harder. They're maintained regularly by someone who knows what they're doing.\n\nMaintenance Valet from £80: interior reset, safe exterior wash, wheels, glass and a protective wax, every few weeks at your door. Add headlight restoration (£90 per pair) or an engine bay detail (£25) on the same visit.\n\nMessage Josh on WhatsApp to set it up.",
      "design": {
       "h1": "KEEP IT",
       "h2": "LOOKING NEW",
@@ -283,10 +283,10 @@
        0.5,
        0.5
       ],
-      "kicker": "MAINTENANCE VALET  \u2022  WE COME TO YOU",
+      "kicker": "MAINTENANCE VALET  •  WE COME TO YOU",
       "price": {
        "mode": "from",
-       "now": "\u00a380",
+       "now": "£80",
        "label": "From "
       },
       "cta": "GET MY QUOTE ON WHATSAPP",
@@ -297,16 +297,16 @@
   },
   {
    "key": "MP",
-   "name": "BH | Meta Messages | Maintenance Plus from \u00a3110 | Rugby+20 | 2026-10",
+   "name": "BH | Meta Messages | Maintenance Plus from £110 | Rugby+20 | 2026-10",
    "budget_pence": 400,
    "targeting": "broad",
    "prefill": "Hi Josh, I'd like a quote for Maintenance Plus. Here's my car and postcode:",
    "ads": [
     {
      "code": "MP1",
-     "headline": "Maintenance Plus From \u00a3110",
+     "headline": "Maintenance Plus From £110",
      "description": "Inside and out, with the detail bits done.",
-     "primary": "Decent car, just needs bringing back up to standard inside and out? Maintenance Plus is the right first visit: everything in the Maintenance Valet plus focused work on the leather, steering wheel, glass and other high-contact areas, finished with Koch-Chemie Protector Wax.\n\nFrom \u00a3110, at your home across Rugby and Warwickshire.\n\nSend Josh your car and postcode on WhatsApp.",
+     "primary": "Decent car, just needs bringing back up to standard inside and out? Maintenance Plus is the right first visit: everything in the Maintenance Valet plus focused work on the leather, steering wheel, glass and other high-contact areas, finished with Koch-Chemie Protector Wax.\n\nFrom £110, at your home across Rugby and Warwickshire.\n\nSend Josh your car and postcode on WhatsApp.",
      "design": {
       "h1": "MAINTENANCE",
       "h2": "PLUS",
@@ -316,10 +316,10 @@
        0.5,
        0.5
       ],
-      "kicker": "THE RIGHT FIRST VISIT  \u2022  WE COME TO YOU",
+      "kicker": "THE RIGHT FIRST VISIT  •  WE COME TO YOU",
       "price": {
        "mode": "from",
-       "now": "\u00a3110",
+       "now": "£110",
        "label": "From "
       },
       "fine": "Price varies by vehicle size and condition.",
@@ -329,8 +329,8 @@
     {
      "code": "MP2",
      "headline": "The Bits You Touch Every Day",
-     "description": "Maintenance Plus from \u00a3110. We come to you.",
-     "primary": "The steering wheel, the leather bolsters, the inside of the glass. The bits you touch every day and the bits that show.\n\nMaintenance Plus gives a car in fair condition a proper inside-and-out reset, from \u00a3110, then regular Maintenance Valets from \u00a380 keep it there. Mobile across Warwickshire, 4.8-star Google rating.\n\nWhatsApp Josh with your car and postcode.",
+     "description": "Maintenance Plus from £110. We come to you.",
+     "primary": "The steering wheel, the leather bolsters, the inside of the glass. The bits you touch every day and the bits that show.\n\nMaintenance Plus gives a car in fair condition a proper inside-and-out reset, from £110, then regular Maintenance Valets from £80 keep it there. Mobile across Warwickshire, 4.8-star Google rating.\n\nWhatsApp Josh with your car and postcode.",
      "design": {
       "h1": "THE BITS YOU",
       "h2": "TOUCH EVERY DAY",
@@ -340,10 +340,10 @@
        0.5,
        0.5
       ],
-      "kicker": "MAINTENANCE PLUS  \u2022  INSIDE AND OUT",
+      "kicker": "MAINTENANCE PLUS  •  INSIDE AND OUT",
       "price": {
        "mode": "from",
-       "now": "\u00a3110",
+       "now": "£110",
        "label": "From "
       },
       "fine": "Price varies by vehicle size and condition.",
@@ -352,9 +352,9 @@
     },
     {
      "code": "MP3",
-     "headline": "Maintenance Plus From \u00a3110",
+     "headline": "Maintenance Plus From £110",
      "description": "Inside and out, with the detail bits done.",
-     "primary": "Decent car, just needs bringing back up to standard inside and out? Maintenance Plus is the right first visit: everything in the Maintenance Valet plus focused work on the leather, steering wheel, glass and other high-contact areas, finished with Koch-Chemie Protector Wax.\n\nFrom \u00a3110, at your home across Rugby and Warwickshire.\n\nSend Josh your car and postcode on WhatsApp.",
+     "primary": "Decent car, just needs bringing back up to standard inside and out? Maintenance Plus is the right first visit: everything in the Maintenance Valet plus focused work on the leather, steering wheel, glass and other high-contact areas, finished with Koch-Chemie Protector Wax.\n\nFrom £110, at your home across Rugby and Warwickshire.\n\nSend Josh your car and postcode on WhatsApp.",
      "design": {
       "h1": "MAINTENANCE",
       "h2": "PLUS",
@@ -364,10 +364,10 @@
        0.5,
        0.5
       ],
-      "kicker": "THE RIGHT FIRST VISIT  \u2022  WE COME TO YOU",
+      "kicker": "THE RIGHT FIRST VISIT  •  WE COME TO YOU",
       "price": {
        "mode": "from",
-       "now": "\u00a3110",
+       "now": "£110",
        "label": "From "
       },
       "cta": "GET MY QUOTE ON WHATSAPP",
@@ -377,8 +377,8 @@
     {
      "code": "MP4",
      "headline": "The Bits You Touch Every Day",
-     "description": "Maintenance Plus from \u00a3110. We come to you.",
-     "primary": "The steering wheel, the leather bolsters, the inside of the glass. The bits you touch every day and the bits that show.\n\nMaintenance Plus gives a car in fair condition a proper inside-and-out reset, from \u00a3110, then regular Maintenance Valets from \u00a380 keep it there. Mobile across Warwickshire, 4.8-star Google rating.\n\nWhatsApp Josh with your car and postcode.",
+     "description": "Maintenance Plus from £110. We come to you.",
+     "primary": "The steering wheel, the leather bolsters, the inside of the glass. The bits you touch every day and the bits that show.\n\nMaintenance Plus gives a car in fair condition a proper inside-and-out reset, from £110, then regular Maintenance Valets from £80 keep it there. Mobile across Warwickshire, 4.8-star Google rating.\n\nWhatsApp Josh with your car and postcode.",
      "design": {
       "h1": "INSIDE AND OUT,",
       "h2": "BROUGHT BACK UP",
@@ -388,10 +388,10 @@
        0.5,
        0.5
       ],
-      "kicker": "MAINTENANCE PLUS  \u2022  RUGBY + 20 MILES",
+      "kicker": "MAINTENANCE PLUS  •  RUGBY + 20 MILES",
       "price": {
        "mode": "from",
-       "now": "\u00a3110",
+       "now": "£110",
        "label": "From "
       },
       "cta": "GET MY QUOTE ON WHATSAPP",
@@ -402,16 +402,16 @@
   },
   {
    "key": "ED",
-   "name": "BH | Meta Messages | Enhancement Detail from \u00a3395 | High Value | 2026-10",
+   "name": "BH | Meta Messages | Enhancement Detail from £395 | High Value | 2026-10",
    "budget_pence": 500,
    "targeting": "high",
    "prefill": "Hi Josh, I'd like a quote for the Enhancement Detail. Here's my car and postcode:",
    "ads": [
     {
      "code": "ED1",
-     "headline": "Enhancement Detail From \u00a3395",
+     "headline": "Enhancement Detail From £395",
      "description": "Decon, machine polish, 1-year coating.",
-     "primary": "Your paint isn't dull. It's covered in a layer of bonded grime and fine marks that a wash can't shift.\n\nThe Enhancement Detail is a full decontamination wash and clay, a gloss-enhancing machine polish, and a one-year Gyeon CanCoat EVO ceramic coating to lock it in. Exterior only, from \u00a3395, at your home.\n\nWhatsApp Josh with your car and postcode for a quote.",
+     "primary": "Your paint isn't dull. It's covered in a layer of bonded grime and fine marks that a wash can't shift.\n\nThe Enhancement Detail is a full decontamination wash and clay, a gloss-enhancing machine polish, and a one-year Gyeon CanCoat EVO ceramic coating to lock it in. Exterior only, from £395, at your home.\n\nWhatsApp Josh with your car and postcode for a quote.",
      "design": {
       "h1": "ENHANCEMENT",
       "h2": "DETAIL",
@@ -425,11 +425,11 @@
        "1-YEAR",
        "CERAMIC COATING"
       ],
-      "kicker": "EXTERIOR DETAIL  \u2022  GLOSS A WAX CAN'T GIVE",
+      "kicker": "EXTERIOR DETAIL  •  GLOSS A WAX CAN'T GIVE",
       "price": {
        "mode": "wasnow",
-       "was": "\u00a3495",
-       "now": "\u00a3395"
+       "was": "£495",
+       "now": "£395"
       },
       "fine": "Price varies by vehicle size and condition.",
       "cta": "GET MY QUOTE ON WHATSAPP"
@@ -438,8 +438,8 @@
     {
      "code": "ED2",
      "headline": "Gloss A Wax Can't Give You",
-     "description": "From \u00a3395. Mobile across Warwickshire.",
-     "primary": "Gloss you can see from across the road. That's what a machine polish does that a wax never will.\n\nEnhancement Detail from \u00a3395: exterior decontamination and clay, gloss-enhancing polish, one-year Gyeon CanCoat EVO coating. Done by hand, by Josh, on your driveway anywhere in Rugby + 20 miles.\n\nMessage on WhatsApp with your car and postcode.",
+     "description": "From £395. Mobile across Warwickshire.",
+     "primary": "Gloss you can see from across the road. That's what a machine polish does that a wax never will.\n\nEnhancement Detail from £395: exterior decontamination and clay, gloss-enhancing polish, one-year Gyeon CanCoat EVO coating. Done by hand, by Josh, on your driveway anywhere in Rugby + 20 miles.\n\nMessage on WhatsApp with your car and postcode.",
      "design": {
       "h1": "GLOSS A WAX",
       "h2": "CAN'T GIVE YOU",
@@ -453,11 +453,11 @@
        "1-YEAR",
        "CERAMIC COATING"
       ],
-      "kicker": "ENHANCEMENT DETAIL  \u2022  EXTERIOR ONLY",
+      "kicker": "ENHANCEMENT DETAIL  •  EXTERIOR ONLY",
       "price": {
        "mode": "wasnow",
-       "was": "\u00a3495",
-       "now": "\u00a3395"
+       "was": "£495",
+       "now": "£395"
       },
       "fine": "Price varies by vehicle size and condition.",
       "cta": "GET MY QUOTE ON WHATSAPP",
@@ -467,8 +467,8 @@
     {
      "code": "ED3",
      "headline": "Looking Like Collection Day",
-     "description": "Enhancement Detail from \u00a3395.",
-     "primary": "Selling it soon, or just want it looking like the day you collected it? The Enhancement Detail brings the gloss back and protects it for a year.\n\nFull decon wash and clay, gloss-enhancing machine polish, Gyeon CanCoat EVO coating. From \u00a3395, exterior only, we come to you. 4.8-star Google rating, 50+ reviews.\n\nWhatsApp Josh with your car and postcode.",
+     "description": "Enhancement Detail from £395.",
+     "primary": "Selling it soon, or just want it looking like the day you collected it? The Enhancement Detail brings the gloss back and protects it for a year.\n\nFull decon wash and clay, gloss-enhancing machine polish, Gyeon CanCoat EVO coating. From £395, exterior only, we come to you. 4.8-star Google rating, 50+ reviews.\n\nWhatsApp Josh with your car and postcode.",
      "design": {
       "h1": "LOOKING LIKE",
       "h2": "COLLECTION DAY",
@@ -482,11 +482,11 @@
        "1-YEAR",
        "CERAMIC COATING"
       ],
-      "kicker": "ENHANCEMENT DETAIL  \u2022  WE COME TO YOU",
+      "kicker": "ENHANCEMENT DETAIL  •  WE COME TO YOU",
       "price": {
        "mode": "wasnow",
-       "was": "\u00a3495",
-       "now": "\u00a3395"
+       "was": "£495",
+       "now": "£395"
       },
       "fine": "Price varies by vehicle size and condition.",
       "cta": "GET MY QUOTE ON WHATSAPP"
@@ -496,16 +496,16 @@
   },
   {
    "key": "RC",
-   "name": "BH | Meta Messages | Refined Correction from \u00a3495 | High Value | 2026-10",
+   "name": "BH | Meta Messages | Refined Correction from £495 | High Value | 2026-10",
    "budget_pence": 800,
    "targeting": "high",
    "prefill": "Hi Josh, I'd like a quote for the Refined Correction Package. Here's my car and postcode:",
    "ads": [
     {
      "code": "RC1",
-     "headline": "Refined Correction From \u00a3495",
+     "headline": "Refined Correction From £495",
      "description": "Swirls removed, 5-year ceramic. We come to you.",
-     "primary": "Those fine swirl marks you see in sunlight are scratches from automatic car washes and bad wash technique. Polish hides them for a week. Correction removes them.\n\nRefined Correction Package from \u00a3495: paint thickness check, single-stage cut and finish removing as many swirls and light scratches as safely possible, then a five-year Gtechniq Crystal Serum Light ceramic coating with Blue Horizon warranty.\n\nWhatsApp Josh with your car and postcode.",
+     "primary": "Those fine swirl marks you see in sunlight are scratches from automatic car washes and bad wash technique. Polish hides them for a week. Correction removes them.\n\nRefined Correction Package from £495: paint thickness check, single-stage cut and finish removing as many swirls and light scratches as safely possible, then a five-year Gtechniq Crystal Serum Light ceramic coating with Blue Horizon warranty.\n\nWhatsApp Josh with your car and postcode.",
      "design": {
       "h1": "PAINT CORRECTION",
       "h2": "+ CERAMIC COATING",
@@ -523,11 +523,11 @@
        "5-YEAR",
        "COATING WARRANTY*"
       ],
-      "kicker": "REFINED CORRECTION  \u2022  OUR MOST POPULAR DETAIL",
+      "kicker": "REFINED CORRECTION  •  OUR MOST POPULAR DETAIL",
       "price": {
        "mode": "wasnow",
-       "was": "\u00a3595",
-       "now": "\u00a3495"
+       "was": "£595",
+       "now": "£495"
       },
       "fine": "Price varies by vehicle size and condition.\n*Warranty terms and aftercare requirements apply.",
       "cta": "GET MY QUOTE ON WHATSAPP"
@@ -536,8 +536,8 @@
     {
      "code": "RC2",
      "headline": "Your Paint Isn't Tired. It's Scratched.",
-     "description": "Refined Correction from \u00a3495.",
-     "primary": "Your paint isn't tired. It's scratched. Under direct light every automatic wash has left its mark, and no amount of waxing fixes that.\n\nThe Refined Correction Package measures the paint, machine-corrects the swirls and light scratches, then seals the result under a five-year Gtechniq Crystal Serum Light coating. From \u00a3495, on your driveway across Warwickshire.\n\nMessage Josh on WhatsApp for a quote.",
+     "description": "Refined Correction from £495.",
+     "primary": "Your paint isn't tired. It's scratched. Under direct light every automatic wash has left its mark, and no amount of waxing fixes that.\n\nThe Refined Correction Package measures the paint, machine-corrects the swirls and light scratches, then seals the result under a five-year Gtechniq Crystal Serum Light coating. From £495, on your driveway across Warwickshire.\n\nMessage Josh on WhatsApp for a quote.",
      "design": {
       "h1": "YOUR PAINT ISN'T TIRED.",
       "h2": "IT'S SCRATCHED.",
@@ -555,11 +555,11 @@
        "5-YEAR",
        "COATING WARRANTY*"
       ],
-      "kicker": "REFINED CORRECTION  \u2022  SINGLE-STAGE CUT & FINISH",
+      "kicker": "REFINED CORRECTION  •  SINGLE-STAGE CUT & FINISH",
       "price": {
        "mode": "wasnow",
-       "was": "\u00a3595",
-       "now": "\u00a3495"
+       "was": "£595",
+       "now": "£495"
       },
       "fine": "Price varies by vehicle size and condition.\n*Warranty terms and aftercare requirements apply.",
       "cta": "GET MY QUOTE ON WHATSAPP"
@@ -568,8 +568,8 @@
     {
      "code": "RC3",
      "headline": "Correct It Once. Protect It For 5 Years.",
-     "description": "From \u00a3495. Rugby, Leamington, Warwick, Kenilworth.",
-     "primary": "Correct it once. Protect it for five years.\n\nThe Refined Correction Package is for paint with light swirls and scratches: full decontamination, paint thickness assessment, a single-stage machine cut and finish, then Gtechniq Crystal Serum Light, a five-year ceramic coating, with Blue Horizon warranty and aftercare. From \u00a3495, we come to you.\n\nSend Josh a couple of photos of the paint in sunlight on WhatsApp, with your car and postcode.",
+     "description": "From £495. Rugby, Leamington, Warwick, Kenilworth.",
+     "primary": "Correct it once. Protect it for five years.\n\nThe Refined Correction Package is for paint with light swirls and scratches: full decontamination, paint thickness assessment, a single-stage machine cut and finish, then Gtechniq Crystal Serum Light, a five-year ceramic coating, with Blue Horizon warranty and aftercare. From £495, we come to you.\n\nSend Josh a couple of photos of the paint in sunlight on WhatsApp, with your car and postcode.",
      "design": {
       "h1": "CORRECT IT ONCE.",
       "h2": "PROTECT IT 5 YEARS.",
@@ -587,11 +587,11 @@
        "5-YEAR",
        "COATING WARRANTY*"
       ],
-      "kicker": "REFINED CORRECTION  \u2022  RUGBY + 25 MILES",
+      "kicker": "REFINED CORRECTION  •  RUGBY + 25 MILES",
       "price": {
        "mode": "wasnow",
-       "was": "\u00a3595",
-       "now": "\u00a3495"
+       "was": "£595",
+       "now": "£495"
       },
       "fine": "Price varies by vehicle size and condition.\n*Warranty terms and aftercare requirements apply.",
       "cta": "GET MY QUOTE ON WHATSAPP"
@@ -599,9 +599,9 @@
     },
     {
      "code": "RC4",
-     "headline": "Refined Correction From \u00a3495",
+     "headline": "Refined Correction From £495",
      "description": "Swirls removed, 5-year ceramic. We come to you.",
-     "primary": "Those fine swirl marks you see in sunlight are scratches from automatic car washes and bad wash technique. Polish hides them for a week. Correction removes them.\n\nRefined Correction Package from \u00a3495: paint thickness check, single-stage cut and finish removing as many swirls and light scratches as safely possible, then a five-year Gtechniq Crystal Serum Light ceramic coating with Blue Horizon warranty.\n\nWhatsApp Josh with your car and postcode.",
+     "primary": "Those fine swirl marks you see in sunlight are scratches from automatic car washes and bad wash technique. Polish hides them for a week. Correction removes them.\n\nRefined Correction Package from £495: paint thickness check, single-stage cut and finish removing as many swirls and light scratches as safely possible, then a five-year Gtechniq Crystal Serum Light ceramic coating with Blue Horizon warranty.\n\nWhatsApp Josh with your car and postcode.",
      "design": {
       "h1": "REFINED",
       "h2": "CORRECTION",
@@ -615,11 +615,11 @@
        "5-YEAR",
        "COATING WARRANTY*"
       ],
-      "kicker": "SINGLE-STAGE CUT & FINISH  \u2022  GTECHNIQ CSL",
+      "kicker": "SINGLE-STAGE CUT & FINISH  •  GTECHNIQ CSL",
       "price": {
        "mode": "wasnow",
-       "was": "\u00a3595",
-       "now": "\u00a3495"
+       "was": "£595",
+       "now": "£495"
       },
       "cta": "GET MY QUOTE ON WHATSAPP",
       "fine": "Price varies by vehicle size and condition.\n*Warranty terms and aftercare requirements apply."
@@ -628,8 +628,8 @@
     {
      "code": "RC5",
      "headline": "Your Paint Isn't Tired. It's Scratched.",
-     "description": "Refined Correction from \u00a3495.",
-     "primary": "Your paint isn't tired. It's scratched. Under direct light every automatic wash has left its mark, and no amount of waxing fixes that.\n\nThe Refined Correction Package measures the paint, machine-corrects the swirls and light scratches, then seals the result under a five-year Gtechniq Crystal Serum Light coating. From \u00a3495, on your driveway across Warwickshire.\n\nMessage Josh on WhatsApp for a quote.",
+     "description": "Refined Correction from £495.",
+     "primary": "Your paint isn't tired. It's scratched. Under direct light every automatic wash has left its mark, and no amount of waxing fixes that.\n\nThe Refined Correction Package measures the paint, machine-corrects the swirls and light scratches, then seals the result under a five-year Gtechniq Crystal Serum Light coating. From £495, on your driveway across Warwickshire.\n\nMessage Josh on WhatsApp for a quote.",
      "design": {
       "h1": "YOUR PAINT ISN'T TIRED.",
       "h2": "IT'S SCRATCHED.",
@@ -643,11 +643,11 @@
        "5-YEAR",
        "COATING WARRANTY*"
       ],
-      "kicker": "REFINED CORRECTION  \u2022  WE COME TO YOU",
+      "kicker": "REFINED CORRECTION  •  WE COME TO YOU",
       "price": {
        "mode": "wasnow",
-       "was": "\u00a3595",
-       "now": "\u00a3495"
+       "was": "£595",
+       "now": "£495"
       },
       "cta": "GET MY QUOTE ON WHATSAPP",
       "fine": "Price varies by vehicle size and condition.\n*Warranty terms and aftercare requirements apply."
@@ -656,8 +656,8 @@
     {
      "code": "RC6",
      "headline": "Correct It Once. Protect It For 5 Years.",
-     "description": "From \u00a3495. Rugby, Leamington, Warwick, Kenilworth.",
-     "primary": "Correct it once. Protect it for five years.\n\nThe Refined Correction Package is for paint with light swirls and scratches: full decontamination, paint thickness assessment, a single-stage machine cut and finish, then Gtechniq Crystal Serum Light, a five-year ceramic coating, with Blue Horizon warranty and aftercare. From \u00a3495, we come to you.\n\nSend Josh a couple of photos of the paint in sunlight on WhatsApp, with your car and postcode.",
+     "description": "From £495. Rugby, Leamington, Warwick, Kenilworth.",
+     "primary": "Correct it once. Protect it for five years.\n\nThe Refined Correction Package is for paint with light swirls and scratches: full decontamination, paint thickness assessment, a single-stage machine cut and finish, then Gtechniq Crystal Serum Light, a five-year ceramic coating, with Blue Horizon warranty and aftercare. From £495, we come to you.\n\nSend Josh a couple of photos of the paint in sunlight on WhatsApp, with your car and postcode.",
      "design": {
       "h1": "CORRECT IT ONCE.",
       "h2": "PROTECT IT 5 YEARS.",
@@ -671,11 +671,11 @@
        "5-YEAR",
        "COATING WARRANTY*"
       ],
-      "kicker": "REFINED CORRECTION  \u2022  OUR MOST POPULAR DETAIL",
+      "kicker": "REFINED CORRECTION  •  OUR MOST POPULAR DETAIL",
       "price": {
        "mode": "wasnow",
-       "was": "\u00a3595",
-       "now": "\u00a3495"
+       "was": "£595",
+       "now": "£495"
       },
       "cta": "GET MY QUOTE ON WHATSAPP",
       "fine": "Price varies by vehicle size and condition.\n*Warranty terms and aftercare requirements apply."
@@ -685,16 +685,16 @@
   },
   {
    "key": "FF",
-   "name": "BH | Meta Messages | Flawless Finish from \u00a3745 | High Value | 2026-10",
+   "name": "BH | Meta Messages | Flawless Finish from £745 | High Value | 2026-10",
    "budget_pence": 500,
    "targeting": "high",
    "prefill": "Hi Josh, I'd like a quote for the Flawless Finish Package. Here's my car and postcode:",
    "ads": [
     {
      "code": "FF1",
-     "headline": "Flawless Finish From \u00a3745",
+     "headline": "Flawless Finish From £745",
      "description": "Multi-stage correction, 5-year ceramic.",
-     "primary": "For paint that deserves more than a quick polish. The Flawless Finish Package is a multi-stage correction, usually a two-step cut and finish, that removes the heavier swirls and scratches a single stage can't, then protects the result with a five-year Gtechniq Crystal Serum Light coating and full Blue Horizon warranty.\n\nFrom \u00a3745, carried out at your home across Warwickshire.\n\nWhatsApp Josh with your car and postcode.",
+     "primary": "For paint that deserves more than a quick polish. The Flawless Finish Package is a multi-stage correction, usually a two-step cut and finish, that removes the heavier swirls and scratches a single stage can't, then protects the result with a five-year Gtechniq Crystal Serum Light coating and full Blue Horizon warranty.\n\nFrom £745, carried out at your home across Warwickshire.\n\nWhatsApp Josh with your car and postcode.",
      "design": {
       "h1": "FLAWLESS",
       "h2": "FINISH",
@@ -708,10 +708,10 @@
        "5-YEAR",
        "COATING WARRANTY*"
       ],
-      "kicker": "TWO-STEP CUT & FINISH  \u2022  FULL WARRANTY",
+      "kicker": "TWO-STEP CUT & FINISH  •  FULL WARRANTY",
       "price": {
        "mode": "from",
-       "now": "\u00a3745",
+       "now": "£745",
        "label": "From "
       },
       "fine": "Price varies by vehicle size and condition.\n*Warranty terms and aftercare requirements apply.",
@@ -721,8 +721,8 @@
     {
      "code": "FF2",
      "headline": "\"Best Money I've Spent On The Car\"",
-     "description": "Flawless Finish from \u00a3745. Real Google review.",
-     "primary": "\"The paint had years of swirl marks and light scratches from automatic car washes and looked flat and tired. Josh corrected the whole car and applied a ceramic coating. The depth and clarity now is incredible. Best money I've spent on the car.\" Mark W., Kenilworth, Flawless Finish on his Audi S5.\n\nFlawless Finish Package from \u00a3745. Multi-stage paint correction and five-year Gtechniq ceramic coating, at your home.\n\nMessage Josh on WhatsApp for a quote.",
+     "description": "Flawless Finish from £745. Real Google review.",
+     "primary": "\"The paint had years of swirl marks and light scratches from automatic car washes and looked flat and tired. Josh corrected the whole car and applied a ceramic coating. The depth and clarity now is incredible. Best money I've spent on the car.\" Mark W., Kenilworth, Flawless Finish on his Audi S5.\n\nFlawless Finish Package from £745. Multi-stage paint correction and five-year Gtechniq ceramic coating, at your home.\n\nMessage Josh on WhatsApp for a quote.",
      "design": {
       "h1": "\"BEST MONEY I'VE",
       "h2": "SPENT ON THE CAR\"",
@@ -736,10 +736,10 @@
        "5-YEAR",
        "COATING WARRANTY*"
       ],
-      "kicker": "MULTI-STAGE PAINT CORRECTION  \u2022  4.8-STAR GOOGLE",
+      "kicker": "MULTI-STAGE PAINT CORRECTION  •  4.8-STAR GOOGLE",
       "price": {
        "mode": "from",
-       "now": "\u00a3745",
+       "now": "£745",
        "label": "From "
       },
       "fine": "Price varies by vehicle size and condition.\n*Warranty terms and aftercare requirements apply.",
@@ -748,9 +748,9 @@
     },
     {
      "code": "FF3",
-     "headline": "Flawless Finish From \u00a3745",
+     "headline": "Flawless Finish From £745",
      "description": "Multi-stage correction, 5-year ceramic.",
-     "primary": "For paint that deserves more than a quick polish. The Flawless Finish Package is a multi-stage correction, usually a two-step cut and finish, that removes the heavier swirls and scratches a single stage can't, then protects the result with a five-year Gtechniq Crystal Serum Light coating and full Blue Horizon warranty.\n\nFrom \u00a3745, carried out at your home across Warwickshire.\n\nWhatsApp Josh with your car and postcode.",
+     "primary": "For paint that deserves more than a quick polish. The Flawless Finish Package is a multi-stage correction, usually a two-step cut and finish, that removes the heavier swirls and scratches a single stage can't, then protects the result with a five-year Gtechniq Crystal Serum Light coating and full Blue Horizon warranty.\n\nFrom £745, carried out at your home across Warwickshire.\n\nWhatsApp Josh with your car and postcode.",
      "design": {
       "h1": "FLAWLESS",
       "h2": "FINISH",
@@ -764,10 +764,10 @@
        "5-YEAR",
        "COATING WARRANTY*"
       ],
-      "kicker": "TWO-STEP CUT & FINISH  \u2022  FULL WARRANTY",
+      "kicker": "TWO-STEP CUT & FINISH  •  FULL WARRANTY",
       "price": {
        "mode": "from",
-       "now": "\u00a3745",
+       "now": "£745",
        "label": "From "
       },
       "cta": "GET MY QUOTE ON WHATSAPP",
@@ -777,8 +777,8 @@
     {
      "code": "FF4",
      "headline": "Paint You Can See Yourself In",
-     "description": "Flawless Finish from \u00a3745. We come to you.",
-     "primary": "Reflections like glass don't come from a wax. They come from a multi-stage machine correction that removes the swirls and scratches, then a five-year Gtechniq Crystal Serum Light coating to lock it in.\n\nThe Flawless Finish Package, from \u00a3745, carried out at your home across Warwickshire with full Blue Horizon warranty and aftercare.\n\nWhatsApp Josh with your car and postcode for a quote.",
+     "description": "Flawless Finish from £745. We come to you.",
+     "primary": "Reflections like glass don't come from a wax. They come from a multi-stage machine correction that removes the swirls and scratches, then a five-year Gtechniq Crystal Serum Light coating to lock it in.\n\nThe Flawless Finish Package, from £745, carried out at your home across Warwickshire with full Blue Horizon warranty and aftercare.\n\nWhatsApp Josh with your car and postcode for a quote.",
      "design": {
       "h1": "PAINT YOU CAN",
       "h2": "SEE YOURSELF IN",
@@ -792,10 +792,10 @@
        "5-YEAR",
        "COATING WARRANTY*"
       ],
-      "kicker": "FLAWLESS FINISH  \u2022  MULTI-STAGE CORRECTION",
+      "kicker": "FLAWLESS FINISH  •  MULTI-STAGE CORRECTION",
       "price": {
        "mode": "from",
-       "now": "\u00a3745",
+       "now": "£745",
        "label": "From "
       },
       "cta": "GET MY QUOTE ON WHATSAPP",
@@ -804,9 +804,9 @@
     },
     {
      "code": "FF5",
-     "headline": "Flawless Finish From \u00a3745",
+     "headline": "Flawless Finish From £745",
      "description": "Multi-stage correction, 5-year ceramic.",
-     "primary": "For paint that deserves more than a quick polish. The Flawless Finish Package is a multi-stage correction, usually a two-step cut and finish, that removes the heavier swirls and scratches a single stage can't, then protects the result with a five-year Gtechniq Crystal Serum Light coating and full Blue Horizon warranty.\n\nFrom \u00a3745, carried out at your home across Warwickshire.\n\nWhatsApp Josh with your car and postcode.",
+     "primary": "For paint that deserves more than a quick polish. The Flawless Finish Package is a multi-stage correction, usually a two-step cut and finish, that removes the heavier swirls and scratches a single stage can't, then protects the result with a five-year Gtechniq Crystal Serum Light coating and full Blue Horizon warranty.\n\nFrom £745, carried out at your home across Warwickshire.\n\nWhatsApp Josh with your car and postcode.",
      "design": {
       "h1": "DEPTH AND CLARITY",
       "h2": "A WASH CAN'T GIVE",
@@ -820,10 +820,10 @@
        "5-YEAR",
        "COATING WARRANTY*"
       ],
-      "kicker": "FLAWLESS FINISH  \u2022  4.8-STAR GOOGLE RATING",
+      "kicker": "FLAWLESS FINISH  •  4.8-STAR GOOGLE RATING",
       "price": {
        "mode": "from",
-       "now": "\u00a3745",
+       "now": "£745",
        "label": "From "
       },
       "cta": "GET MY QUOTE ON WHATSAPP",
@@ -834,7 +834,7 @@
   },
   {
    "key": "NCP",
-   "name": "BH | Meta Messages | New Car Protection from \u00a3675 | High Value | 2026-10",
+   "name": "BH | Meta Messages | New Car Protection from £675 | High Value | 2026-10",
    "budget_pence": 800,
    "targeting": "high",
    "prefill": "Hi Josh, I'd like a quote for New Car Protection. Here's my car and postcode:",
@@ -842,8 +842,8 @@
     {
      "code": "NCP1",
      "headline": "Three Coatings. Not One.",
-     "description": "New Car Protection from \u00a3675. We come to you.",
-     "primary": "Most 'protection packs' coat the paint and stop there. New Car Protection from Blue Horizon coats three surfaces: five-year Gtechniq Crystal Serum Light on the paint, Gtechniq Clear Vision on every window, Gtechniq Wheel Armour on the alloy faces. Any dealer marring or light swirls are corrected first.\n\nFrom \u00a3675, at your home across Warwickshire, in the first weeks of ownership when it matters most.\n\nWhatsApp Josh with your car and postcode.",
+     "description": "New Car Protection from £675. We come to you.",
+     "primary": "Most 'protection packs' coat the paint and stop there. New Car Protection from Blue Horizon coats three surfaces: five-year Gtechniq Crystal Serum Light on the paint, Gtechniq Clear Vision on every window, Gtechniq Wheel Armour on the alloy faces. Any dealer marring or light swirls are corrected first.\n\nFrom £675, at your home across Warwickshire, in the first weeks of ownership when it matters most.\n\nWhatsApp Josh with your car and postcode.",
      "design": {
       "h1": "NEW CAR?",
       "h2": "PROTECT IT PROPERLY",
@@ -857,10 +857,10 @@
        "5-YEAR",
        "COATING WARRANTY*"
       ],
-      "kicker": "NEW CAR PROTECTION  \u2022  THREE COATINGS, NOT ONE",
+      "kicker": "NEW CAR PROTECTION  •  THREE COATINGS, NOT ONE",
       "price": {
        "mode": "from",
-       "now": "\u00a3675",
+       "now": "£675",
        "label": "From "
       },
       "fine": "Price varies by vehicle size and condition.\n*Warranty terms and aftercare requirements apply.",
@@ -870,8 +870,8 @@
     {
      "code": "NCP2",
      "headline": "Not A Dealer Add-On",
-     "description": "Paint, glass and wheels protected. From \u00a3675.",
-     "primary": "The dealer's protection pack is a wipe-over and an invoice. Ours is a day's work on your driveway.\n\nFull paint decontamination, dealer marring and light swirls corrected, then five-year Gtechniq ceramic on the paint, glass coating on all windows and wheel-face coating on the alloys. New Car Protection Package from \u00a3675.\n\nMessage Josh on WhatsApp with your car and postcode.",
+     "description": "Paint, glass and wheels protected. From £675.",
+     "primary": "The dealer's protection pack is a wipe-over and an invoice. Ours is a day's work on your driveway.\n\nFull paint decontamination, dealer marring and light swirls corrected, then five-year Gtechniq ceramic on the paint, glass coating on all windows and wheel-face coating on the alloys. New Car Protection Package from £675.\n\nMessage Josh on WhatsApp with your car and postcode.",
      "design": {
       "h1": "NOT A",
       "h2": "DEALER ADD-ON",
@@ -885,10 +885,10 @@
        "5-YEAR",
        "COATING WARRANTY*"
       ],
-      "kicker": "GTECHNIQ CSL  \u2022  CLEAR VISION  \u2022  WHEEL ARMOUR",
+      "kicker": "GTECHNIQ CSL  •  CLEAR VISION  •  WHEEL ARMOUR",
       "price": {
        "mode": "from",
-       "now": "\u00a3675",
+       "now": "£675",
        "label": "From "
       },
       "fine": "Price varies by vehicle size and condition.\n*Warranty terms and aftercare requirements apply.",
@@ -898,8 +898,8 @@
     {
      "code": "NCP3",
      "headline": "Factory-Fresh. Kept That Way.",
-     "description": "New Car Protection from \u00a3675.",
-     "primary": "A car is only factory-fresh once. Protect it now and every wash for the next five years is easier, safer and glossier.\n\nNew Car Protection Package from \u00a3675: decontamination, light correction, five-year Gtechniq Crystal Serum Light, Clear Vision glass coating, Wheel Armour on the alloy faces. Trusted with prestige cars across Warwickshire, 4.8-star Google rating.\n\nWhatsApp Josh with your car and postcode.",
+     "description": "New Car Protection from £675.",
+     "primary": "A car is only factory-fresh once. Protect it now and every wash for the next five years is easier, safer and glossier.\n\nNew Car Protection Package from £675: decontamination, light correction, five-year Gtechniq Crystal Serum Light, Clear Vision glass coating, Wheel Armour on the alloy faces. Trusted with prestige cars across Warwickshire, 4.8-star Google rating.\n\nWhatsApp Josh with your car and postcode.",
      "design": {
       "h1": "FACTORY-FRESH.",
       "h2": "KEPT THAT WAY.",
@@ -913,10 +913,10 @@
        "5-YEAR",
        "COATING WARRANTY*"
       ],
-      "kicker": "NEW CAR PROTECTION PACKAGE  \u2022  WE COME TO YOU",
+      "kicker": "NEW CAR PROTECTION PACKAGE  •  WE COME TO YOU",
       "price": {
        "mode": "from",
-       "now": "\u00a3675",
+       "now": "£675",
        "label": "From "
       },
       "fine": "Price varies by vehicle size and condition.\n*Warranty terms and aftercare requirements apply.",
@@ -927,16 +927,16 @@
   },
   {
    "key": "CC",
-   "name": "BH | Meta Messages | Ceramic Coating from \u00a3200 | High Value | 2026-10",
+   "name": "BH | Meta Messages | Ceramic Coating from £200 | High Value | 2026-10",
    "budget_pence": 500,
    "targeting": "high",
    "prefill": "Hi Josh, I'd like a quote for a ceramic coating. Here's my car and postcode:",
    "ads": [
     {
      "code": "CC1",
-     "headline": "Ceramic Coating From \u00a3200",
+     "headline": "Ceramic Coating From £200",
      "description": "1-year or 5-year protection. We come to you.",
-     "primary": "Paint already in good condition? Protect it before winter.\n\nStandalone ceramic coating: safe wash, chemical decontamination, clay and panel wipe, then the coating applied and checked. One-year Gyeon CanCoat EVO from \u00a3200, five-year Gtechniq Crystal Serum Light from \u00a3345. No machine polishing included; if the paint needs correction we tell you first.\n\nWhatsApp Josh with your car and postcode.",
+     "primary": "Paint already in good condition? Protect it before winter.\n\nStandalone ceramic coating: safe wash, chemical decontamination, clay and panel wipe, then the coating applied and checked. One-year Gyeon CanCoat EVO from £200, five-year Gtechniq Crystal Serum Light from £345. No machine polishing included; if the paint needs correction we tell you first.\n\nWhatsApp Josh with your car and postcode.",
      "design": {
       "h1": "CERAMIC",
       "h2": "COATING",
@@ -946,21 +946,21 @@
        0.5,
        0.5
       ],
-      "kicker": "GYEON  \u2022  CARPRO  \u2022  GTECHNIQ",
+      "kicker": "GYEON  •  CARPRO  •  GTECHNIQ",
       "price": {
        "mode": "from",
-       "now": "\u00a3200",
+       "now": "£200",
        "label": "From "
       },
-      "fine": "For paint already in good condition. 5-year Gtechniq CSL from \u00a3345.",
+      "fine": "For paint already in good condition. 5-year Gtechniq CSL from £345.",
       "cta": "GET MY QUOTE ON WHATSAPP"
      }
     },
     {
      "code": "CC2",
      "headline": "Winter-Proof Your Paint",
-     "description": "Ceramic coatings from \u00a3200. Rugby + 20 miles.",
-     "primary": "Water beads off, dirt doesn't stick, and the gloss stays through the salt and grime of a Warwickshire winter.\n\nHydrophobic ceramic protection applied at your home: full decontamination and clay prep, then Gyeon CanCoat EVO (one year) from \u00a3200 or Gtechniq Crystal Serum Light (five years) from \u00a3345.\n\nMessage Josh on WhatsApp for a quote.",
+     "description": "Ceramic coatings from £200. Rugby + 20 miles.",
+     "primary": "Water beads off, dirt doesn't stick, and the gloss stays through the salt and grime of a Warwickshire winter.\n\nHydrophobic ceramic protection applied at your home: full decontamination and clay prep, then Gyeon CanCoat EVO (one year) from £200 or Gtechniq Crystal Serum Light (five years) from £345.\n\nMessage Josh on WhatsApp for a quote.",
      "design": {
       "h1": "WINTER-PROOF",
       "h2": "YOUR PAINT",
@@ -970,21 +970,21 @@
        0.5,
        0.5
       ],
-      "kicker": "CERAMIC COATING  \u2022  APPLIED AT YOUR HOME",
+      "kicker": "CERAMIC COATING  •  APPLIED AT YOUR HOME",
       "price": {
        "mode": "from",
-       "now": "\u00a3200",
+       "now": "£200",
        "label": "From "
       },
-      "fine": "For paint already in good condition. 5-year Gtechniq CSL from \u00a3345.",
+      "fine": "For paint already in good condition. 5-year Gtechniq CSL from £345.",
       "cta": "GET MY QUOTE ON WHATSAPP"
      }
     },
     {
      "code": "CC3",
      "headline": "Easier Washes For Years",
-     "description": "Ceramic coating from \u00a3200. Mobile.",
-     "primary": "Washing a coated car takes half the time and does half the damage. That's the point of a ceramic coating.\n\nBlue Horizon applies Gyeon and Gtechniq coatings on your driveway after a proper decontamination and clay. From \u00a3200 for one-year protection, from \u00a3345 for five-year Gtechniq Crystal Serum Light. 4.8-star Google rating, 50+ reviews.\n\nWhatsApp Josh with your car and postcode.",
+     "description": "Ceramic coating from £200. Mobile.",
+     "primary": "Washing a coated car takes half the time and does half the damage. That's the point of a ceramic coating.\n\nBlue Horizon applies Gyeon and Gtechniq coatings on your driveway after a proper decontamination and clay. From £200 for one-year protection, from £345 for five-year Gtechniq Crystal Serum Light. 4.8-star Google rating, 50+ reviews.\n\nWhatsApp Josh with your car and postcode.",
      "design": {
       "h1": "EASIER WASHES",
       "h2": "FOR YEARS",
@@ -994,13 +994,13 @@
        0.5,
        0.5
       ],
-      "kicker": "CERAMIC COATING  \u2022  4.8-STAR GOOGLE RATING",
+      "kicker": "CERAMIC COATING  •  4.8-STAR GOOGLE RATING",
       "price": {
        "mode": "from",
-       "now": "\u00a3200",
+       "now": "£200",
        "label": "From "
       },
-      "fine": "For paint already in good condition. 5-year Gtechniq CSL from \u00a3345.",
+      "fine": "For paint already in good condition. 5-year Gtechniq CSL from £345.",
       "cta": "GET MY QUOTE ON WHATSAPP"
      }
     }
@@ -1008,89 +1008,25 @@
   },
   {
    "key": "HL",
-   "name": "BH | Meta Messages | Headlight Restoration \u00a390 | Rugby+20 | 2026-10",
+   "name": "BH | Meta Messages | Headlight Restoration £90 | Rugby+20 | 2026-10",
    "budget_pence": 400,
    "targeting": "broad",
    "prefill": "Hi Josh, I'd like headlight restoration. Here's my car and postcode:",
-   "ads": [
-    {
-     "code": "HL1",
-     "headline": "Headlight Restoration \u2013 \u00a390 Per Pair",
-     "description": "Restored and re-cleared at your home.",
-     "primary": "Yellowed, hazy headlights make a good car look tired and make night driving worse. It's not the bulbs, it's the lens.\n\nHeadlight Restoration and Re-clear: both lenses prepared, the oxidised layer removed and refined, then a fresh clear coat applied for a long-lasting finish. \u00a390 per pair, done at your home, usually alongside a valet.\n\nWhatsApp Josh a photo of your headlights with your postcode.",
-     "design": {
-      "h1": "HEADLIGHT",
-      "h2": "RESTORATION",
-      "sub": "Hazed, yellow lenses restored and re-cleared.",
-      "img": "web/headlight-restoration-range-rover-westminster-warwickshire.jpg",
-      "focus": [
-       0.5,
-       0.45
-      ],
-      "inset": {
-       "img": 32,
-       "caption": "BEFORE",
-       "focus": [
-        0.55,
-        0.45
-       ],
-       "zoom": 1.3
-      },
-      "kicker": "BOTH HEADLIGHTS  \u2022  DONE AT YOUR HOME",
-      "price": {
-       "mode": "text",
-       "now": "\u00a390 per pair"
-      },
-      "cta": "GET MY QUOTE ON WHATSAPP",
-      "fine": "Fixed price for the pair. Adds neatly to any valet or detail visit."
-     }
-    },
-    {
-     "code": "HL2",
-     "headline": "The \u00a390 Fix That Shows",
-     "description": "Headlight restoration and re-clear. Mobile.",
-     "primary": "Cloudy headlights are the cheapest fix that makes the biggest difference to how a car looks.\n\n\u00a390 for the pair: oxidation removed, lenses refined and re-cleared, not just polished to haze over again in a month. We come to you across Rugby and Warwickshire, and it slots neatly into any valet or detail visit.\n\nMessage Josh on WhatsApp with a photo and your postcode.",
-     "design": {
-      "h1": "THE \u00a390 FIX",
-      "h2": "THAT SHOWS",
-      "sub": "Not just polished. Re-cleared to last.",
-      "img": "web/porsche-taycan-gts-front-headlight-warwickshire.jpg",
-      "focus": [
-       0.45,
-       0.4
-      ],
-      "inset": {
-       "img": 32,
-       "caption": "BEFORE",
-       "focus": [
-        0.55,
-        0.45
-       ],
-       "zoom": 1.3
-      },
-      "kicker": "HEADLIGHT RESTORATION & RE-CLEAR",
-      "price": {
-       "mode": "text",
-       "now": "\u00a390 per pair"
-      },
-      "cta": "GET MY QUOTE ON WHATSAPP",
-      "fine": "Fixed price for the pair. Adds neatly to any valet or detail visit."
-     }
-    }
-   ]
+   "ads": [],
+   "removed": "owner, 4 Oct 2026: removed; campaign renamed DELETE in Ads Manager"
   },
   {
    "key": "ST",
-   "name": "BH | Meta Messages | Soft Top Treatment from \u00a3100 | Rugby+20 | 2026-10",
+   "name": "BH | Meta Messages | Soft Top Treatment from £100 | Rugby+20 | 2026-10",
    "budget_pence": 300,
    "targeting": "broad",
    "prefill": "Hi Josh, I'd like a quote for the soft top treatment. Here's my car and postcode:",
    "ads": [
     {
      "code": "ST1",
-     "headline": "Soft Top Clean & Protect From \u00a3100",
+     "headline": "Soft Top Clean & Protect From £100",
      "description": "Algae removed, fabric waterproofed.",
-     "primary": "Green tinge on the roof? That's algae, and it's eating the fabric.\n\nConvertible Soft Top Treatment: fabric pre-soak and deep clean, algae and mould removal, thorough drying, then a waterproofing treatment that typically protects for around a year. From \u00a3100 per hood, at your home. Fabric hoods only.\n\nWhatsApp Josh a photo of the roof with your car and postcode.",
+     "primary": "Green tinge on the roof? That's algae, and it's eating the fabric.\n\nConvertible Soft Top Treatment: fabric pre-soak and deep clean, algae and mould removal, thorough drying, then a waterproofing treatment that typically protects for around a year. From £100 per hood, at your home. Fabric hoods only.\n\nWhatsApp Josh a photo of the roof with your car and postcode.",
      "design": {
       "h1": "SOFT TOP",
       "h2": "CLEAN & PROTECT",
@@ -1108,10 +1044,10 @@
         0.5
        ]
       },
-      "kicker": "FABRIC HOODS  \u2022  WE COME TO YOU",
+      "kicker": "FABRIC HOODS  •  WE COME TO YOU",
       "price": {
        "mode": "from",
-       "now": "\u00a3100",
+       "now": "£100",
        "label": "From "
       },
       "cta": "GET MY QUOTE ON WHATSAPP",
@@ -1121,8 +1057,8 @@
     {
      "code": "ST2",
      "headline": "Treat Fabric Like Fabric",
-     "description": "Soft top treatment from \u00a3100. We come to you.",
-     "primary": "Your roof is fabric. It needs cleaning and re-proofing like fabric, not blasting with a pressure washer.\n\nFrom \u00a3100 per hood: deep clean, algae and mould removal, dry, then waterproofed so rain beads off instead of soaking in. Add it to a valet or book it on its own. Mobile across Warwickshire.\n\nMessage Josh on WhatsApp with your car and postcode.",
+     "description": "Soft top treatment from £100. We come to you.",
+     "primary": "Your roof is fabric. It needs cleaning and re-proofing like fabric, not blasting with a pressure washer.\n\nFrom £100 per hood: deep clean, algae and mould removal, dry, then waterproofed so rain beads off instead of soaking in. Add it to a valet or book it on its own. Mobile across Warwickshire.\n\nMessage Josh on WhatsApp with your car and postcode.",
      "design": {
       "h1": "TREAT FABRIC",
       "h2": "LIKE FABRIC",
@@ -1135,55 +1071,7 @@
       "kicker": "CONVERTIBLE SOFT TOP TREATMENT",
       "price": {
        "mode": "from",
-       "now": "\u00a3100",
-       "label": "From "
-      },
-      "cta": "GET MY QUOTE ON WHATSAPP",
-      "fine": "Per hood. Price varies by hood size and condition."
-     }
-    },
-    {
-     "code": "ST3",
-     "headline": "Green Tinge On The Roof?",
-     "description": "Soft top treatment from \u00a3100. Fabric hoods only.",
-     "primary": "That green tinge is algae, and it's eating the fabric. Our Convertible Soft Top Treatment pre-soaks and deep cleans the hood, lifts out the algae and mould, dries it properly and re-proofs it so rain beads off instead of soaking in.\n\nFrom \u00a3100 per hood, at your home across Rugby and Warwickshire. Add it to a valet or book it on its own.\n\nWhatsApp Josh a photo of the roof with your car and postcode.",
-     "design": {
-      "h1": "GREEN TINGE",
-      "h2": "ON THE ROOF?",
-      "sub": "That's algae. We lift it out and re-proof the hood.",
-      "img": 535,
-      "focus": [
-       0.5,
-       0.5
-      ],
-      "kicker": "SOFT TOP TREATMENT  \u2022  RUGBY + 20 MILES",
-      "price": {
-       "mode": "from",
-       "now": "\u00a3100",
-       "label": "From "
-      },
-      "cta": "GET MY QUOTE ON WHATSAPP",
-      "fine": "Per hood. Price varies by hood size and condition."
-     }
-    },
-    {
-     "code": "ST4",
-     "headline": "Soft Top Clean & Protect From \u00a3100",
-     "description": "Algae removed, fabric waterproofed. Mobile.",
-     "primary": "Green tinge on the roof? That's algae, and it's eating the fabric.\n\nConvertible Soft Top Treatment: fabric pre-soak and deep clean, algae and mould removal, thorough drying, then a waterproofing treatment that typically protects for around a year. From \u00a3100 per hood, at your home. Fabric hoods only.\n\nWhatsApp Josh a photo of the roof with your car and postcode.",
-     "design": {
-      "h1": "RAIN BEADS OFF.",
-      "h2": "NOT SOAKS IN.",
-      "sub": "Cleaned, dried and waterproofed for around a year.",
-      "img": 1175,
-      "focus": [
-       0.5,
-       0.5
-      ],
-      "kicker": "SOFT TOP TREATMENT  \u2022  WE COME TO YOU",
-      "price": {
-       "mode": "from",
-       "now": "\u00a3100",
+       "now": "£100",
        "label": "From "
       },
       "cta": "GET MY QUOTE ON WHATSAPP",
@@ -1194,7 +1082,7 @@
   },
   {
    "key": "CV",
-   "name": "BH | Meta Messages | Caravan & Motorhome Care | Rugby+20 | 2026-10",
+   "name": "BH | Meta Messages | Caravan Ceramic Coating | Rugby+20 | 2026-10",
    "budget_pence": 300,
    "targeting": "broad",
    "prefill": "Hi Josh, I'd like a quote for my caravan/motorhome. I'll send photos. Here's my postcode:",
@@ -1203,45 +1091,23 @@
      "code": "CV1",
      "headline": "Caravan Ceramic Coating",
      "description": "Tailored quote. Warwickshire and surrounds.",
-     "primary": "Caravan sides go chalky and dull, and black streaks never quite shift. A proper decontamination and ceramic coating changes that for seasons, not weeks.\n\nBlue Horizon offers caravan and motorhome appearance care and ceramic coating, tailored to the size, surfaces and condition. Every job is individually quoted. We come to you, or to your storage site.\n\nWhatsApp Josh a couple of photos and your postcode for a quote.",
-     "design": {
-      "h1": "CARAVAN, CAMPER",
-      "h2": "& MOTORHOME CARE",
-      "sub": "Washed, decontaminated, protected.",
-      "img": 320,
-      "focus": [
-       0.5,
-       0.5
-      ],
-      "kicker": "AT YOUR HOME OR STORAGE SITE",
-      "price": {
-       "mode": "text",
-       "now": "Quoted by size and condition"
-      },
-      "fine": "Every job individually quoted from your photos.",
-      "cta": "GET MY QUOTE ON WHATSAPP"
-     }
-    },
-    {
-     "code": "CV2",
-     "headline": "Caravan & Motorhome Care",
-     "description": "Quoted from your photos. We come to you.",
-     "primary": "Get the caravan or motorhome ready for storage, or ready for the first trip of the season, without spending your weekend on a ladder.\n\nExterior and interior appearance care for caravans and motorhomes, scope agreed up front and individually quoted. Mobile across Rugby and Warwickshire.\n\nSend Josh photos and your postcode on WhatsApp.",
+     "primary": "Caravan sides go chalky and dull, and black streaks never quite shift. A proper decontamination and ceramic coating changes that for seasons, not weeks.\n\nBlue Horizon offers caravan and motorhome ceramic coating, tailored to the size, surfaces and condition. Every job is individually quoted. We come to you, or to your storage site.\n\nWhatsApp Josh a couple of photos and your postcode for a quote.",
      "design": {
       "h1": "CARAVAN",
       "h2": "CERAMIC COATING",
       "sub": "Chalky sides and black streaks, sorted for seasons.",
-      "img": 317,
+      "img": "web/coachman.jpg",
       "focus": [
        0.5,
-       0.5
+       0.55
       ],
-      "kicker": "DECONTAMINATION + CERAMIC  \u2022  WE COME TO YOU",
+      "zoom": 1.0,
+      "kicker": "DECONTAMINATION + CERAMIC  •  WE COME TO YOU",
       "price": {
        "mode": "text",
        "now": "Quoted by size and condition"
       },
-      "fine": "Every job individually quoted from your photos.",
+      "fine": "Every job individually quoted from your photos.\nCoachman Festival 660 pictured, coated by Blue Horizon.",
       "cta": "GET MY QUOTE ON WHATSAPP"
      }
     }
@@ -1253,55 +1119,8 @@
    "budget_pence": 300,
    "targeting": "broad",
    "prefill": "Hi Josh, I'd like a quote for my van/commercial vehicle. Here's the vehicle and postcode:",
-   "ads": [
-    {
-     "code": "CMV1",
-     "headline": "Your Van Is Your Advert",
-     "description": "Commercial vehicle care. Quoted per vehicle.",
-     "primary": "\"As someone who uses the van daily for clients, presentation matters. The whole vehicle now reflects my business perfectly.\" Sarah M., Rugby, on her dog grooming van.\n\nYour van is your advert. Blue Horizon valets, deep cleans and details work vans and commercial vehicles at your premises, individually quoted, with repeat visits available.\n\nWhatsApp Josh with the vehicle and postcode for a quote.",
-     "design": {
-      "h1": "YOUR VAN IS",
-      "h2": "YOUR ADVERT",
-      "sub": "Vans and fleets valeted at your premises.",
-      "img": 1026,
-      "focus": [
-       0.5,
-       0.5
-      ],
-      "kicker": "COMMERCIAL VEHICLE CARE  \u2022  REPEAT VISITS",
-      "price": {
-       "mode": "text",
-       "now": "Quoted per vehicle"
-      },
-      "fine": "Scope and price agreed before we start.",
-      "cta": "GET MY QUOTE ON WHATSAPP"
-     }
-    },
-    {
-     "code": "CMV2",
-     "headline": "Works Hard. Still Looks Sharp.",
-     "description": "Pickups and vans. Mobile, quoted per vehicle.",
-     "primary": "Work truck in the week, family car at the weekend? It can still look the part.\n\nValeting, deep cleaning and paint protection for pickups, vans and commercial vehicles, at your home or yard across Rugby and Warwickshire. Scope and price agreed before we start.\n\nMessage Josh on WhatsApp with the vehicle and postcode.",
-     "design": {
-      "h1": "WORKS HARD.",
-      "h2": "STILL LOOKS SHARP.",
-      "sub": "Pickups, vans and work trucks.",
-      "img": 1044,
-      "focus": [
-       0.5,
-       0.55
-      ],
-      "kicker": "VALETING  \u2022  DEEP CLEAN  \u2022  PROTECTION",
-      "price": {
-       "mode": "text",
-       "now": "Quoted per vehicle"
-      },
-      "fine": "Scope and price agreed before we start.",
-      "cta": "GET MY QUOTE ON WHATSAPP",
-      "zoom": 1.0
-     }
-    }
-   ]
+   "ads": [],
+   "removed": "owner, 4 Oct 2026: removed; campaign renamed DELETE in Ads Manager"
   },
   {
    "key": "PC",
@@ -1347,7 +1166,7 @@
        0.5,
        0.5
       ],
-      "kicker": "PRIVATE COLLECTION CARE  \u2022  WARWICKSHIRE",
+      "kicker": "PRIVATE COLLECTION CARE  •  WARWICKSHIRE",
       "price": {
        "mode": "text",
        "now": "Bespoke. Quoted per collection."
@@ -1370,7 +1189,7 @@
        0.5,
        0.5
       ],
-      "kicker": "PRIVATE COLLECTION CARE  \u2022  4.8-STAR GOOGLE",
+      "kicker": "PRIVATE COLLECTION CARE  •  4.8-STAR GOOGLE",
       "price": {
        "mode": "text",
        "now": "Bespoke. Quoted per collection."
@@ -1379,7 +1198,8 @@
       "cta": "GET MY QUOTE ON WHATSAPP"
      }
     }
-   ]
+   ],
+   "hold": "owner, 4 Oct 2026: remove for now; ads PAUSED, campaign renamed HOLD"
   }
  ]
 }
